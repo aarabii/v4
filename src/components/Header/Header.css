@@ -1,0 +1,79 @@
+header {
+    height: 100vh;
+    padding-top: 7rem;
+    overflow: hidden;
+}
+
+.header_container {
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+/* ==================== CTA ==================== */
+.cta {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+}
+
+/* ==================== Socials ==================== */
+.header_socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    left: 0;
+    bottom: 3rem;
+}
+
+.header_socials::after {
+    content: '';
+    width: 1px;
+    height: 2rem;
+    background: var(--color-primary);
+}
+
+/* ==================== My Image (PFP) ==================== */
+
+.me {
+    width: 22rem;
+    height: 25rem;
+    position: absolute;
+    left: calc(50% - 11rem);
+    margin-top: 2rem;
+    border-radius: 1rem 1rem 1rem 1rem;
+    overflow: hidden;
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+}
+
+/* ==================== Scroll Down ==================== */
+.scroll_down {
+    position: absolute;
+    right: -2.3rem;
+    bottom: 15rem;
+    transform: rotate(90deg);
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+
+/* ==================== MEDIA QUERIES (Medium DEVICES) ==================== */
+@media screen and (max-width: 1024px) {
+    header {
+        height: 68vh;
+    }
+}
+
+/* ==================== MEDIA QUERIES (Small DEVICES) ==================== */
+@media screen and (max-width: 600px) {
+    header {
+        height: 100vh;
+    }
+
+    .header_socials,
+    .scroll_down {
+        display: none;
+    }
+}
