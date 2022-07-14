@@ -1,0 +1,25 @@
+{
+    "short_name": "Aarab Nishchal",
+    "name": "React based portfolio website.",
+    "icons": [
+        {
+            "src": "favicon.ico",
+            "sizes": "96x96 64x64 48x48 32x32 24x24 16x16",
+            "type": "image/x-icon"
+        },
+        {
+            "src": "../src/assets/Logo/logo192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "../src/assets/Logo/logo512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#000000",
+    "background_color": "#ffffff"
+}

@@ -36,7 +36,7 @@ const Header = () => {
         <HeaderSocials />
 
         <div className="me">
-          <img src={require('../../assets/me2.jpg')} alt="me" />
+          <img src={require('../../assets/Pics/me2.jpg')} alt="me" />
         </div>
 
         <a href='#contact' className="scroll_down">Scroll Down.</a>

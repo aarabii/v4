@@ -1,6 +1,6 @@
 import React from 'react';
 import './About.css';
-import About_Image from '../../assets/about_image.png';
+import About_Image from '../../assets/Pics/about_image.png';
 
 import { FaAward } from 'react-icons/fa';
 import { BsFolder } from 'react-icons/bs';
