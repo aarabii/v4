@@ -4,7 +4,7 @@ import './Contact.css';
 
 import { HiOutlineMail } from 'react-icons/hi';
 import { FaTelegramPlane } from 'react-icons/fa';
-import { RiWhatsappFill } from 'react-icons/ri';
+import { BsSnapchat } from 'react-icons/bs';
 
 
 
@@ -61,10 +61,10 @@ const Contact = () => {
           </article>
 
           <article className='contact_option'>
-            <RiWhatsappFill className='contact_icons'/>
-            <h4>Whatsapp</h4>
-            <h5>+91-9546-456837</h5>
-            <a href='https://wa.me/+919546457837' target="_blank" rel="noreferrer">Send a message</a>
+            <BsSnapchat className='contact_icons'/>
+            <h4>Snapchat</h4>
+            <h5>nishu.kr</h5>
+            <a href='https://snapchat.com/add/nishu.kr' target="_blank" rel="noreferrer">Send a message</a>
           </article>
         </div>
         <form ref={form} onSubmit={sendEmail}>

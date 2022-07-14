@@ -1,5 +1,5 @@
 footer {
-    background: var(--color-primary);
+    background: var(--color-bg);
     padding: 3rem 0;
     text-align: center;
     font-size: 0.9rem;
@@ -7,7 +7,7 @@ footer {
 }
 
 footer a {
-    color: var(--color-bg);
+    color: var(--color-primary);
 }
 
 .footer_logo {
@@ -29,11 +29,11 @@ footer a {
     display: flex;
     justify-content: center;
     gap: 1rem;
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
 }
 
 .social_media a {
-    background-color: var(--color-bg);
+    background-color: var(--color-bg-variant);
     color: var(--color-white);
     padding: 0.8rem;
     border-radius: 0.7rem;
@@ -43,13 +43,13 @@ footer a {
 
 .social_media a:hover {
     background: transparent;
-    color: var(--color-bg);
-    border-color: var(--color-bg);
+    color: var(--color-white);
+    border: 1px solid var(--color-primary);
 }
 
 .copyright {
     margin-bottom: 4rem;
-    color: var(--color-bg);
+    color: var(--color-primary);
 }
 
 /* ==================== MEDIA QUERIES (Small DEVICES) ==================== */

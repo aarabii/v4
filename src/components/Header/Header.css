@@ -9,6 +9,9 @@ header {
     height: 100%;
     position: relative;
 }
+.header_container h5 {
+    color: #3d938b;
+}
 .header_container h1 {
     color: #fff;
     text-transform: uppercase;

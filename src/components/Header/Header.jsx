@@ -28,7 +28,7 @@ const Header = () => {
   return (
     <header>
       <div className='container header_container'>
-        <h5>Hello, I'm</h5>
+        <h5>Hi, my name is</h5>
         <TypingEffect />
         {/* <h1>Aarab Nishchal</h1> */}
         <h5 className='text-light'><Text /></h5>

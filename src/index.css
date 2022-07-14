@@ -31,10 +31,10 @@ html {
 
 BODY {
     font-family: 'Raleway', sans-serif;
-    background: var(--color-bg);
+    background: var(--color-bg-variant);
     color: var(--color-white);
     line-height: 1,7;
-    background-image: url('./assets/othersPics/bg-texture.png');
+    background-image: url('./assets/othersPics/bgTexturn2.png');
 }
 
 /* ==================== GENERAL STYLES ==================== */
