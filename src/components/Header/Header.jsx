@@ -35,7 +35,7 @@ const Header = () => {
         <CTA />
         <HeaderSocials />
 
-        <div className="me">
+        <div className="me image-card">
           <img src={require('../../assets/Pics/me2.jpg')} alt="me" />
         </div>
 

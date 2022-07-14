@@ -1,6 +1,6 @@
 header {
     height: 100vh;
-    padding-top: 7rem;
+    padding-top: 5rem;
     overflow: hidden;
 }
 
@@ -16,7 +16,7 @@ header {
     color: #fff;
     text-transform: uppercase;
     font-family: "Josefin Sans", sans-serif;
-    background: linear-gradient(to right,#667eea 0%, #764ba2 100%);
+    background: linear-gradient(90deg, #fdeff9 0%, #7303c0 33%, #ec38bc 66%, #fdeff9 100%);
     background-size: auto auto;
     background-clip: border-box;
     background-size: 200% auto;
@@ -25,7 +25,7 @@ header {
     /* text-fill-color: transparent; */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    animation: textclip 1.5s linear infinite;
+    animation: textclip 3.5s linear infinite;
     display: inline-block;
 }
 
@@ -69,9 +69,42 @@ to {
     position: absolute;
     left: calc(50% - 11rem);
     margin-top: 2rem;
-    border-radius: 1rem 1rem 1rem 1rem;
+    /* border-radius: 1rem 1rem 1rem 1rem; */
     overflow: hidden;
     padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+    border-radius: 3px;
+    transition: all .4s;
+}
+.image-card:hover{
+    box-shadow: 1px 1px 6px 1px #764BA2;
+    border-radius: 1px solid #7303c0;
+}
+.image-card:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 180%;
+    height: 100%;
+    width: 75%;
+    background: rgba(255,255,255,.1);
+    z-index: 1;
+    transform: skew(45deg);
+    opacity: .7;
+    pointer-events: none;
+    transition: .5s;
+}
+.image-card:hover:before{
+    left: -180%;
+}
+.image-card img{
+    height: 100%;
+    width: 100%;
+    filter: grayscale(100%);
+    transition: 2s;
+}
+.image-card:hover img{
+    filter: grayscale(0%);
+    transform: scale(1.1);
 }
 
 /* ==================== Scroll Down ==================== */
