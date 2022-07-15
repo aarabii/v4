@@ -71,7 +71,7 @@ const Contact = () => {
           <input type='text' name='name' placeholder='Your Name' required/>
           <input type='email' name='email' placeholder='Your Email' required/>
           <textarea name='message' rows="?" placeholder='Your Message' required></textarea>
-          <button type='submit' className='btn btn-primary'>Say Hello 👋</button>
+          <button type='submit' className='btn btn-primary'>👋 Say Hello</button>
           <div className='status'>
             <Expire delay="5000">{status}</Expire>
           </div>
