@@ -39,7 +39,9 @@ const Header = () => {
           <img src={require('../../assets/Pics/me2.jpg')} alt="me" />
         </div>
 
-        <a href='#contact' className="scroll_down">Scroll Down.</a>
+        <div className='mail-container'>
+          <a href='mailto:nishu@duck.com' className="mail">aarab.nishchal@gmail.com</a>
+        </div>
       </div>
     </header>
   )

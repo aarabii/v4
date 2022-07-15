@@ -3,6 +3,7 @@ import './Footer.css';
 
 import { FaFacebookSquare, FaInstagram, FaGithub, FaTwitter } from 'react-icons/fa';
 import { SiLinktree } from 'react-icons/si';
+import { IoMdRocket } from 'react-icons/io';
 
 const Footer = () => {
   return (
@@ -23,7 +24,10 @@ const Footer = () => {
         <a href='https://www.facebook.com/zzcwc/' target="_blank" rel="noreferrer"><FaFacebookSquare /></a>
         <a href='https://linktr.ee/zzcwc' target="_blank" rel="noreferrer"><SiLinktree /></a>
       </div>
-
+      <div className='rocket_container'>
+        <a href='/#'  className='rocket'><IoMdRocket className='rocket-img' /></a>
+        <p className='rocket_p'>Beam me up, Shawty!</p>
+      </div>
       <div className='copyright'>
         <small>&copy; Losier. All rights reserved.</small>
       </div>

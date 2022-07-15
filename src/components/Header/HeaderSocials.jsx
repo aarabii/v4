@@ -13,7 +13,7 @@ const HeaderSocials = () => {
             <a href="https://www.linkedin.com/in/aarab-nishchal/" target="_blank" rel="noopener noreferrer"><BsLinkedin /></a>
             <a href="https://www.instagram.com/zzcwc" target="_blank" rel="noopener noreferrer"><BsInstagram /></a>
             <a href="https://twitter.com/uwu_losier" target="_blank" rel="noopener noreferrer"><BsTwitter /></a>
-            <a href="mailto:nishu@duck.com"><BsEnvelope /></a>
+            <a href="mailto:aarab.nishchal@gmail.com"><BsEnvelope /></a>
         </div>
     )
 }

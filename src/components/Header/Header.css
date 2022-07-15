@@ -48,17 +48,24 @@ to {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 0.8rem;
-    position: absolute;
-    left: 0;
-    bottom: 3rem;
+    gap: 1rem;
+    position: fixed;
+    /* size: 1i; */
+    font-size: 1.25rem;
+    left: 7rem;
+    bottom: 0rem;
 }
 
 .header_socials::after {
     content: '';
     width: 1px;
-    height: 2rem;
+    height: 5rem;
     background: var(--color-primary);
+}
+
+.header_socials:hover,
+.header_socials:focus {
+    transform: translateY(-3px);
 }
 
 /* ==================== My Image (PFP) ==================== */
@@ -108,13 +115,39 @@ to {
 }
 
 /* ==================== Scroll Down ==================== */
-.scroll_down {
-    position: absolute;
-    right: -2.3rem;
-    bottom: 15rem;
-    transform: rotate(90deg);
-    font-weight: 300;
-    font-size: 0.9rem;
+.mail-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    position: fixed;
+    /* size: 1i; */
+    font-size: 1rem;
+    right: 4.5rem;
+    bottom: 0rem;
+}
+
+.mail-container:after {
+    content: '';
+    display: block;
+    width: 1px;
+    height: 90px;
+    /* margin: 0 auto; */
+    background-color: var(--color-primary);
+}
+
+.mail-container a {
+    margin: 20px auto;
+    padding: 10px;
+    font-family: "SFmono";
+    line-height: 5rem;
+    letter-spacing: 0.15em;
+    writing-mode: vertical-rl;
+}
+
+.mail-container a:hover,
+.mail-container a:focus {
+    transform: translateY(-3px);
 }
 
 /* ==================== MEDIA QUERIES (Medium DEVICES) ==================== */
@@ -131,7 +164,7 @@ to {
     }
 
     .header_socials,
-    .scroll_down {
+    .mail-container {
         display: none;
     }
 }
