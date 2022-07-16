@@ -36,7 +36,7 @@ Yes, you can fork this repo. Please give me proper credit. Thanks!
 1. Preview the site as it will appear once deployed
 
    ```sh
-   npm run serve
+   npm start
    ```
 
 ## 🎨 Color Reference
