@@ -9,6 +9,7 @@ import {
 import Home from './components/Home/Home';
 
 import PageNotFound from './components/Pages/404Page/PageNotFound';
+import ComingSoon from './components/Pages/ComingSoon/ComingSoon';
 
 const App = () => {
   return (
@@ -18,8 +19,11 @@ const App = () => {
           <Route exact path='/'>
             <Home />
           </Route>
-          <Route exact path='/about'>
-            <Home />
+          <Route path='/projects'>
+            <ComingSoon />
+          </Route>
+          <Route path='/cv'>
+            <ComingSoon />
           </Route>
           <Route path='*'>
             <PageNotFound />
