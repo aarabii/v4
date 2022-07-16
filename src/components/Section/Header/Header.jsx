@@ -36,7 +36,7 @@ const Header = () => {
         <HeaderSocials />
 
         <div className="me image-card">
-          <img src={require('../../assets/Pics/me2.jpg')} alt="me" />
+          <img src={require('../../../assets/Pics/me2.jpg')} alt="me" />
         </div>
 
         <div className='mail-container'>
