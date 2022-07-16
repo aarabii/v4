@@ -1,7 +1,11 @@
 import React from 'react';
 import './404.css'
 
+import { useLocation } from 'react-router-dom';
+
 const PageNotFount = () => {
+  const location = useLocation();
+
   return (
     <div id='notfound'>
         <div className='notfound'>
@@ -9,7 +13,8 @@ const PageNotFount = () => {
                 <h1>404</h1>
                 <h2>Page not found</h2>
             </div>
-            <a href='http://aarabnishchal.herokuapp.com/'>Go To Homepage</a>
+            <a href='/'>Go To Homepage</a>
+            <p>No match for <code>{location.pathname}</code></p>
         </div>
     </div>
   )
