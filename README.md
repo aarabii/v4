@@ -44,6 +44,7 @@ Yes, you can fork this repo. Please give me proper credit. Thanks!
 | Avatar                                 | Name           | Position               |
 | -------------------------------------- | -------------- | ---------------------- |
 | <img src="https://github.com/losier.png" width=100px> | [Losier](https://github.com/losier)  | #1 |
+| <img src="https://github.com/spbavarva.png" width=100px> | [Sneh Patel](https://github.com/spbavarva)  | #2 |
 
 
 ## 🎨 Color Reference
