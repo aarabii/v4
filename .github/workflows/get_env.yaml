@@ -1,0 +1,27 @@
+name: Heroku Deploy
+on:
+  push:
+    branches:
+      - master
+env:
+  PUBLIC_KEY: ${{ secrets.PUBLIC_KEY }}
+  SERVICE_ID: ${{ secrets.SERVICE_ID }}
+  TEMPLATE_ID: ${{ secrets.TEMPLATE_ID }}
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Debug Action
+        uses: hmarr/debug-action@v1.0.0
+      - name: Checkout Repo
+        uses: actions/checkout@master
+      - name: Install Dependencies
+        run: npm install
+      - name: Build
+        run: npm run build
+      - name: Archive Production Artifact
+        uses: actions/upload-artifact@master
+        with:
+          name: build
+          path: build
