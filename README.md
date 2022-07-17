@@ -39,6 +39,13 @@ Yes, you can fork this repo. Please give me proper credit. Thanks!
    npm start
    ```
 
+## 🎨 Contributors
+
+| Avatar                                 | Name           | Position               |
+| -------------------------------------- | -------------- | ---------------------- |
+| <img src="https://github.com/losier.png" width=100px> | [Losier](https://github.com/losier)  | #1 |
+
+
 ## 🎨 Color Reference
 
 | Color          | Hex                                                                |
