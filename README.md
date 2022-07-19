@@ -41,11 +41,11 @@ Yes, you can fork this repo. Please give me proper credit. Thanks!
 
 ## 🎨 Contributors
 
-| Avatar                                 | Name           | Position               |
+| Avatar                                 | Name           | Contribution               |
 | -------------------------------------- | -------------- | ---------------------- |
-| <img src="https://github.com/losier.png" width=100px> | [Losier](https://github.com/losier)  | #1 |
-| <img src="https://github.com/spbavarva.png" width=100px> | [Sneh Patel](https://github.com/spbavarva)  | #2 |
-| <img src="https://github.com/Aryanihal.png" width=100px> | [Nihal Arya](https://github.com/Aryanihal)  | #3 |
+| <img src="https://github.com/losier.png" width=100px> | [Losier](https://github.com/losier)  | Owner of this Repo |
+| <img src="https://github.com/spbavarva.png" width=100px> | [Sneh Patel](https://github.com/spbavarva)  | [coming soon responsive check](https://github.com/losier/v4/tree/1c73516856115e9261bb6b2e0718ad20df660386) |
+| <img src="https://github.com/Aryanihal.png" width=100px> | [Nihal Arya](https://github.com/Aryanihal)  | [Create CODE_OF_CONDUCT.md](https://github.com/losier/v4/tree/41295c4eaf7b6568c30f2bce093b1768d98e7a36) |
 
 
 
