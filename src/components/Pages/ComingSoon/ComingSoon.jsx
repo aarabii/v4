@@ -36,8 +36,9 @@ const ComingSoon = () => {
     };
 
     useEffect(() => {
+        const intervalRefValue = interval.current;
         startTimer();
-        return () => clearInterval(interval.current);
+        return () => clearInterval(intervalRefValue);
     })
 
     return (
