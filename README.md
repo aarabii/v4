@@ -1,3 +1,6 @@
+# Issue!
+## This project have some issue in src. I'll try to fix it as soon as my exams are over. till then I request you guys to help me out if you find any error or solution please Make a PR  
+
 <div align="center">
   <img alt="Logo" src="https://raw.githubusercontent.com/losier/v4/master/src/assets/othersPics/logo.png" width="100" />
 </div>
@@ -46,6 +49,8 @@ Yes, you can fork this repo. Please give me proper credit. Thanks!
 | <img src="https://github.com/losier.png" width=100px> | [Losier](https://github.com/losier)  | Owner of this Repo |
 | <img src="https://github.com/spbavarva.png" width=100px> | [Sneh Patel](https://github.com/spbavarva)  | [coming soon responsive check](https://github.com/losier/v4/tree/1c73516856115e9261bb6b2e0718ad20df660386) |
 | <img src="https://github.com/Aryanihal.png" width=100px> | [Nihal Arya](https://github.com/Aryanihal)  | [Create CODE_OF_CONDUCT.md](https://github.com/losier/v4/tree/41295c4eaf7b6568c30f2bce093b1768d98e7a36) |
+| <img src="https://github.com/GalMalach08.png" width=100px> | [Gal Malach](https://github.com/GalMalach08)  | [fix the navbar when scroll](https://github.com/losier/v4/tree/fe699536343e9f213873faec915fa9eacadeb037) |
+
 
 
 
