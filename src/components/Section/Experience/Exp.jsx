@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from "react";
-import { useIsInViewport } from "../../utils/utils";
+import useIsInViewport from "use-is-in-viewport"
 
 import "./Exp.css";
 import { BsPatchCheck } from "react-icons/bs";

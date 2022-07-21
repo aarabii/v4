@@ -18,6 +18,7 @@
         "react-icons": "^4.4.0",
         "react-router-dom": "^5.2.0",
         "react-scripts": "5.0.1",
+        "use-is-in-viewport": "^1.0.9",
         "web-vitals": "^2.1.4"
     },
     "scripts": {

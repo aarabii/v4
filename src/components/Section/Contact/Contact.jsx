@@ -1,5 +1,5 @@
 import React, { useRef, useEffect, useState } from "react";
-import { useIsInViewport } from "../../utils/utils";
+import useIsInViewport from "use-is-in-viewport"
 
 import emailjs from "emailjs-com";
 import "./Contact.css";

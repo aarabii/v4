@@ -1,6 +1,3 @@
-# Issue!
-## This project have some issue in src. I'll try to fix it as soon as my exams are over. till then I request you guys to help me out if you find any error or solution please Make a PR  
-
 <div align="center">
   <img alt="Logo" src="https://raw.githubusercontent.com/losier/v4/master/src/assets/othersPics/logo.png" width="100" />
 </div>
