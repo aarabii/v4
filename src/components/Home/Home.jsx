@@ -6,6 +6,7 @@ import Exp from "../Section/Experience/Exp";
 import Footer from "../Section/Footer/Footer";
 import Header from "../Section/Header/Header";
 import Nav from "../Section/Nav/Nav";
+import GithubRepo from "../Section/GithubProjects/GithubRepo";
 
 import PreLoader from "../Pages/PreLoader/PreLoader";
 
@@ -17,6 +18,7 @@ const HomePage = () => {
       <Nav inView={inView} />
       <About setInView={setInView} />
       <Exp setInView={setInView} />
+      <GithubRepo setInView={setInView} />
       <Contact setInView={setInView} />
       <Footer />
     </div>

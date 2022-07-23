@@ -155,6 +155,11 @@ to {
     header {
         height: 68vh;
     }
+    
+    .header_socials,
+    .mail-container {
+        display: none;
+    }
 }
 
 /* ==================== MEDIA QUERIES (Small DEVICES) ==================== */
