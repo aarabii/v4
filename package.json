@@ -2,7 +2,7 @@
     "name": "losier-portfolio",
     "version": "v2",
     "engines": {
-        "node": "12.18.0"
+        "node": "16.13.0"
     },
     "private": true,
     "dependencies": {
