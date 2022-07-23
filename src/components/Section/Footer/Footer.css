@@ -1,5 +1,6 @@
 footer {
-    background: var(--color-bg);
+    background-color: var(--color-bg);
+    background: url('../../../assets/othersPics/banner-bg.png');
     padding: 3rem 0;
     text-align: center;
     font-size: 0.9rem;
@@ -7,7 +8,7 @@ footer {
 }
 
 footer a {
-    color: var(--color-primary);
+    color: var(--color-light-gray);
 }
 
 .footer_logo {
@@ -51,7 +52,7 @@ footer a {
     margin-bottom: 4rem;
     font-family: "SFmono";
     letter-spacing: 0.1em;
-    color: var(--color-primary);
+    color: var(--color-light-gray);
 }
 .rocket_container {
     margin-bottom: 0.5rem;
