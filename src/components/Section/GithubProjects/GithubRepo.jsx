@@ -19,8 +19,8 @@ const GithubRepo = () => {
                                 </div>
                                 <h3>{title}</h3>
                                 <div className='githubRepo_item_cta'>
-                                    <a href={github} className='btn'>Github</a>
-                                    <a href={demo} className='btn btn-primary' target='_blank'>Demo</a>
+                                    <a href={github} className='btn' target='_blank' rel="noopener noreferrer">Github</a>
+                                    <a href={demo} className='btn btn-primary' target='_blank' rel="noopener noreferrer">Demo</a>
                                 </div>
                             </article>
                         )
