@@ -15,7 +15,6 @@ header {
 .header_container h1 {
     color: #fff;
     text-transform: uppercase;
-    font-family: "Josefin Sans", sans-serif;
     background: linear-gradient(90deg, #fdeff9 0%, #7303c0 33%, #ec38bc 66%, #fdeff9 100%);
     background-size: auto auto;
     background-clip: border-box;
