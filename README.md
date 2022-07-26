@@ -24,11 +24,11 @@
   <tbody>
     <tr>
       <td width="50%" align="center">
-          <img alt="Github stats" src="https://raw.githubusercontent.com/losier/v4/master/src/assets/othersPics/demo.png" />
+          <img alt="site demo" src="https://raw.githubusercontent.com/losier/v4/master/src/assets/othersPics/demo.png" />
         </a>
       </td>
       <td width="50%" align="center">
-        <img alt="Github stats" src="https://raw.githubusercontent.com/losier/v4/master/src/assets/othersPics/demo2.png" />
+        <img alt="Responsive demo" src="https://raw.githubusercontent.com/losier/v4/master/src/assets/othersPics/demo2.png" />
       </td>
     </tr>
   </tbody>
