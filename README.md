@@ -27,9 +27,9 @@
           <img alt="site demo" src="https://raw.githubusercontent.com/losier/v4/master/src/assets/othersPics/demo.png" />
         </a>
       </td>
-      <td width="50%" align="center">
+      <!-- <td width="50%" align="center">
         <img alt="Responsive demo" src="https://raw.githubusercontent.com/losier/v4/master/src/assets/othersPics/demo2.png" />
-      </td>
+      </td> -->
     </tr>
   </tbody>
 </table>
