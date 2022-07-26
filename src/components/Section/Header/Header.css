@@ -5,44 +5,58 @@ header {
 }
 
 .header_container {
-    text-align: center;
     height: 100%;
     position: relative;
+    display: flex;
+    flex-direction: column;
 }
-.header_container h5 {
-    color: #3d938b;
+
+.header_text {
+    margin-top: 10%;
+    padding: 0;
+    margin-bottom: 40%;
 }
-.header_container h1 {
-    color: #fff;
+
+.header_text h3 {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 20px;
+    font-size: 18px;
+    color: #64ffda;
+    text-align: start;
+    word-spacing: 3px;
+    letter-spacing: normal;
+    margin: 0;
+    padding: 0;
+}
+
+.header_text h1 {
+    font-size: 80px;
+    color: #ccd6f6;
     text-transform: uppercase;
-    background: linear-gradient(90deg, #fdeff9 0%, #7303c0 33%, #ec38bc 66%, #fdeff9 100%);
-    background-size: auto auto;
-    background-clip: border-box;
-    background-size: 200% auto;
-    color: #fff;
-    background-clip: text;
-    /* text-fill-color: transparent; */
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: textclip 3.5s linear infinite;
-    display: inline-block;
+    text-align: start;
+    margin: 0;
+    padding: 0;
 }
 
+.header_text span {
+    font-size: 80px;
+    color: #8892b0;
+    line-height: 72px;
+    text-transform: uppercase;
+    text-align: start;
+    margin: 0;
+    padding: 0;
+}
 
-@keyframes textclip {
-to {
-    background-position: 200% center;
-}
-}
-/* ==================== CTA ==================== */
 .cta {
-    margin-top: 2.5rem;
+    margin-top: 3rem;
     display: flex;
     gap: 1.2rem;
-    justify-content: center;
+    /* justify-content: center; */
 }
 
-/* ==================== Socials ==================== */
+/* ==================== Floating Icons and mail ==================== */
 .header_socials {
     display: flex;
     flex-direction: column;
@@ -67,53 +81,6 @@ to {
     transform: translateY(-3px);
 }
 
-/* ==================== My Image (PFP) ==================== */
-
-.me {
-    width: 22rem;
-    height: 25rem;
-    position: absolute;
-    left: calc(50% - 11rem);
-    margin-top: 2rem;
-    /* border-radius: 1rem 1rem 1rem 1rem; */
-    overflow: hidden;
-    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
-    border-radius: 3px;
-    transition: all .4s;
-}
-.image-card:hover{
-    box-shadow: 1px 1px 6px 1px #764BA2;
-    border-radius: 1px solid #7303c0;
-}
-.image-card:before{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 180%;
-    height: 100%;
-    width: 75%;
-    background: rgba(255,255,255,.1);
-    z-index: 1;
-    transform: skew(45deg);
-    opacity: .7;
-    pointer-events: none;
-    transition: .5s;
-}
-.image-card:hover:before{
-    left: -180%;
-}
-.image-card img{
-    height: 100%;
-    width: 100%;
-    filter: grayscale(100%);
-    transition: 2s;
-}
-.image-card:hover img{
-    filter: grayscale(0%);
-    transform: scale(1.1);
-}
-
-/* ==================== Scroll Down ==================== */
 .mail-container {
     display: flex;
     flex-direction: column;
@@ -152,7 +119,19 @@ to {
 /* ==================== MEDIA QUERIES (Medium DEVICES) ==================== */
 @media screen and (max-width: 1024px) {
     header {
-        height: 68vh;
+        height: 80vh;
+    }
+
+    .header_text {
+        margin-top: 20%;
+    }
+
+    .header_text h1 {
+        font-size: 60px;
+    }
+
+    .header_text span {
+        font-size: 60px;
     }
     
     .header_socials,
