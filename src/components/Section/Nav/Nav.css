@@ -17,6 +17,7 @@ nav {
     filter: none !important;
     pointer-events: auto !important;
     user-select: auto !important;
+    border-bottom: 1px solid var(--color-bg);
 }
 
 .nav-text {
