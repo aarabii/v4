@@ -19,7 +19,20 @@
   </a>
 </p>
 
-![demo](https://raw.githubusercontent.com/losier/v4/master/src/assets/othersPics/demo.png)
+<!-- ![demo](https://raw.githubusercontent.com/losier/v4/master/src/assets/othersPics/demo.png) -->
+<table>
+  <tbody>
+    <tr>
+      <td width="50%" align="center">
+          <img alt="Github stats" src="https://raw.githubusercontent.com/losier/v4/master/src/assets/othersPics/demo.png" />
+        </a>
+      </td>
+      <td width="50%" align="center">
+        <img alt="Github stats" src="https://raw.githubusercontent.com/losier/v4/master/src/assets/othersPics/demo2.png" />
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ## 🚨 Forking this repo (please read!)
 
