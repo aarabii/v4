@@ -8,14 +8,14 @@ import Header from "../Section/Header/Header";
 import Nav from "../Section/Nav/Nav";
 import GithubRepo from "../Section/GithubProjects/GithubRepo";
 
-import PreLoader from "../Pages/PreLoader/PreLoader";
+import PreLoader from "../../hooks/PreLoader/PreLoader";
 
 const HomePage = () => {
   const [inView, setInView] = useState("");
   return (
     <div>
-      <Header setInView={setInView} />
       <Nav inView={inView} />
+      <Header setInView={setInView} />
       <About setInView={setInView} />
       <Exp setInView={setInView} />
       <GithubRepo setInView={setInView} />

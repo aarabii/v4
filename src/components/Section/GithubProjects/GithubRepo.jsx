@@ -5,7 +5,7 @@ import { data } from './demoProjectArray';
 
 const GithubRepo = () => {
     return (
-        <section id='githubRepo'>
+        <section id='projects'>
             <h5>My recent works.</h5>
             <h2>Projects</h2>
 
