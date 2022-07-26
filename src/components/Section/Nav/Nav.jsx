@@ -1,15 +1,43 @@
 import React, { useState, useEffect } from "react";
+
 import "./Nav.css";
 
 const Nav = ({ inView }) => {
+
   const [activeNav, setActiveNav] = useState("#");
 
   useEffect(() => {
     setActiveNav(inView);
   }, [inView]);
 
+  const [showNav, setShowNav] = useState(() => null);
+
+  useEffect(() => {
+    let lastScrollPosition = 0;
+    setShowNav(true);
+    document.addEventListener(
+      "scroll",
+      function (e) {
+        if (window.scrollY > lastScrollPosition) {
+          setShowNav(false);
+        } else {
+          setShowNav(true);
+        }
+        lastScrollPosition = window.scrollY;
+      },
+      {
+        passive: true,
+      }
+    );
+  }, []);
+  
   return (
-    <nav>
+    <nav style={
+      {
+        opacity: showNav ? 1 : 0,
+        top: showNav ? 0 : "-100px",
+      }
+    }>
       <div className="nav-text">
         <h1>Aarab.</h1>
       </div>
