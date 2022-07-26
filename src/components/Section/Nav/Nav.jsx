@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./Nav.css";
 
-import NavLogo from "./NavLogo";
-
 const Nav = ({ inView }) => {
   const [activeNav, setActiveNav] = useState("#");
 
@@ -13,7 +11,7 @@ const Nav = ({ inView }) => {
   return (
     <nav>
       <div className="nav-text">
-        <NavLogo />
+        <h1>Aarab.</h1>
       </div>
 
       <ul className="nav-links">
