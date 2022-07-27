@@ -1,0 +1,10 @@
+{
+    "extends": ["react-app", "plugin:prettier/recommended"],
+    "prettier/prettier": [
+        "error",
+        {
+            "singleQuote": true,
+            "parser": "flow"
+        }
+    ]
+}
