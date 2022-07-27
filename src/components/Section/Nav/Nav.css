@@ -120,6 +120,10 @@ input[type=checkbox]{
         left: 0;
         text-align: center;
         padding: 16px 0;
+    } 
+
+    .menu li {
+        margin: 12px 0;
     }
 
     .menu li:hover {
@@ -137,11 +141,42 @@ input[type=checkbox]{
         margin-top: 12px;
     }
 
+    ul > label {
+        cursor: pointer;
+    }
+
     input[type=checkbox]:checked ~ .menu{
         display: block;
     }
 
+    input[type=checkbox]:checked ~ label {
+        transform: skewX(45deg);
+        transition: all .2s linear;
+    }
+
     .hamburger {
         display: block;
+    }
+}
+
+@media screen and (max-width: 641px) {
+    nav {
+        padding: 0 30px;
+    }
+    
+    .nav_btn {
+        margin-left: 35%;
+        margin-right: 35%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    nav {
+        padding: 0 20px;
+    }
+
+    .nav_btn {
+        margin-left: 30%;
+        margin-right: 30%;
     }
 }
