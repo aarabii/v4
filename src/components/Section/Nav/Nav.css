@@ -110,7 +110,7 @@ input[type=checkbox]{
     }
 
     .menu { 
-        display:none;
+        display:block;
         position: absolute;
         background-color: rgba(10, 25, 47, 0.85);
         /* background-color:teal; */
@@ -120,6 +120,11 @@ input[type=checkbox]{
         left: 0;
         text-align: center;
         padding: 16px 0;
+        top: 69px;
+    } 
+
+    .menu li {
+        margin: 12px 0;
     }
 
     .menu li:hover {
@@ -137,11 +142,82 @@ input[type=checkbox]{
         margin-top: 12px;
     }
 
-    input[type=checkbox]:checked ~ .menu{
-        display: block;
+    ul > label {
+        cursor: pointer;
     }
 
     .hamburger {
+        position: relative;
         display: block;
+        width: 25px;
+        height: 20px;
+        cursor: pointer;
+    }
+
+    .hamburger span {
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        background-color: white;
+        top: 0;
+        left: 0;
+    }
+
+    .hamburger::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: white;
+    }
+
+    .hamburger::before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        bottom: 0;
+        background-color: white;
+    }
+
+    .hamburger.active > span {
+        transform: rotate(-45deg) translateY(7px) translateX(-5px);
+        transition: .25s linear all;
+    }
+
+    .hamburger.active::before {
+        transition: .25s linear all;
+        transform: rotate(45deg) translateY(-7px) translateX(-5px);
+    }
+
+    .hamburger.active::after {
+        transform: translateX(-15px);
+        opacity: 0;
+        transition: .25s linear all;
+    }
+
+}
+
+@media screen and (max-width: 641px) {
+    nav {
+        padding: 0 30px;
+    }
+    
+    .nav_btn {
+        margin-left: 35%;
+        margin-right: 35%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    nav {
+        padding: 0 20px;
+    }
+
+    .nav_btn {
+        margin-left: 30%;
+        margin-right: 30%;
     }
 }
