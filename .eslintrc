@@ -1,11 +1,4 @@
 {
     "root": true,
-    "extends": ["react-app", "plugin:prettier/recommended"],
-    "prettier/prettier": [
-        "error",
-        {
-            "singleQuote": true,
-            "parser": "flow"
-        }
-    ]
+    "extends": ["react-app", "plugin:prettier/recommended"]
 }
