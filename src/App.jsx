@@ -24,7 +24,6 @@ const App = () => {
           <Route path="*">
             <PageNotFound />
           </Route>
-          
         </Switch>
       </div>
     </Router>
