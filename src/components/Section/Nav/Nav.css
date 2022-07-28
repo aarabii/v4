@@ -110,7 +110,7 @@ input[type="checkbox"] {
   }
 
   .menu {
-    display: block;
+    display: none;
     position: absolute;
     background-color: rgba(10, 25, 47, 0.85);
     /* background-color:teal; */
@@ -142,8 +142,8 @@ input[type="checkbox"] {
     margin-top: 12px;
   }
 
-  ul > label {
-    cursor: pointer;
+  input[type="checkbox"]:checked ~ .menu {
+    display: block;
   }
 
   .hamburger {
