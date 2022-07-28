@@ -1,70 +1,70 @@
 .experience_container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
 }
 
 .experience_container > div {
-    background: var(--color-bg-variant);
-    padding: 2.4rem 5rem;
-    border-radius: 2rem;
-    border: 1px solid transparent;
-    transition: var(--transition);
+  background: var(--color-bg-variant);
+  padding: 2.4rem 5rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+  transition: var(--transition);
 }
 
 .experience_container > div:hover {
-    background: transparent;
-    border-color: var(--color-primary-variant);
-    cursor: default;
+  background: transparent;
+  border-color: var(--color-primary-variant);
+  cursor: default;
 }
 
 .experience_container > div h3 {
-    text-align: center;
-    margin-bottom: 2rem;
-    color: var(--color-primary);
+  text-align: center;
+  margin-bottom: 2rem;
+  color: var(--color-primary);
 }
 
 .experience_content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    row-gap: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 2rem;
 }
 
 .experience_details {
-    display: flex;
-    gap: 1rem;
+  display: flex;
+  gap: 1rem;
 }
 
 .experience_details-icons {
-    margin-top: 6px;
-    color: var(--color-primary);
+  margin-top: 6px;
+  color: var(--color-primary);
 }
 
 /* ==================== MEDIA QUERIES (Medium DEVICES) ==================== */
 @media screen and (max-width: 1024px) {
-    .experience_container {
-        grid-template-columns: 1fr;
-    }
+  .experience_container {
+    grid-template-columns: 1fr;
+  }
 
-    .experience_container > div {
-        width: 80%;
-        padding: 2rem;
-        margin: 0 auto;
-    }
+  .experience_container > div {
+    width: 80%;
+    padding: 2rem;
+    margin: 0 auto;
+  }
 
-    .experience_content {
-        padding: 1rem;
-    }
+  .experience_content {
+    padding: 1rem;
+  }
 }
 
 /* ==================== MEDIA QUERIES (Small DEVICES) ==================== */
 @media screen and (max-width: 600px) {
-    .experience_container {
-        gap: 1rem;
-    }
+  .experience_container {
+    gap: 1rem;
+  }
 
-    .experience_container > div {
-        width: 100%;
-        padding: 2rem 1rem;
-    }
+  .experience_container > div {
+    width: 100%;
+    padding: 2rem 1rem;
+  }
 }

@@ -1,153 +1,153 @@
 header {
-    height: 100vh;
-    padding-top: 5rem;
-    overflow: hidden;
+  height: 100vh;
+  padding-top: 5rem;
+  overflow: hidden;
 }
 
 .header_container {
-    height: 100%;
-    position: relative;
-    display: flex;
-    flex-direction: column;
+  height: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
 .header_text {
-    margin-top: 10%;
-    padding: 0;
-    margin-bottom: 40%;
+  margin-top: 10%;
+  padding: 0;
+  margin-bottom: 40%;
 }
 
 .header_text h3 {
-    font-size: 40px;
-    font-weight: 400;
-    line-height: 20px;
-    font-size: 18px;
-    color: #64ffda;
-    text-align: start;
-    word-spacing: 3px;
-    letter-spacing: normal;
-    margin: 0;
-    padding: 0;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 20px;
+  font-size: 18px;
+  color: #64ffda;
+  text-align: start;
+  word-spacing: 3px;
+  letter-spacing: normal;
+  margin: 0;
+  padding: 0;
 }
 
 .header_text h1 {
-    font-size: 80px;
-    color: #ccd6f6;
-    text-transform: uppercase;
-    text-align: start;
-    margin: 0;
-    padding: 0;
+  font-size: 80px;
+  color: #ccd6f6;
+  text-transform: uppercase;
+  text-align: start;
+  margin: 0;
+  padding: 0;
 }
 
 .header_text span {
-    font-size: 80px;
-    color: #8892b0;
-    line-height: 72px;
-    text-transform: uppercase;
-    text-align: start;
-    margin: 0;
-    padding: 0;
+  font-size: 80px;
+  color: #8892b0;
+  line-height: 72px;
+  text-transform: uppercase;
+  text-align: start;
+  margin: 0;
+  padding: 0;
 }
 
 .cta {
-    margin-top: 3rem;
-    display: flex;
-    gap: 1.2rem;
-    /* justify-content: center; */
+  margin-top: 3rem;
+  display: flex;
+  gap: 1.2rem;
+  /* justify-content: center; */
 }
 
 /* ==================== Floating Icons and mail ==================== */
 .header_socials {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-    position: fixed;
-    /* size: 1i; */
-    font-size: 1.25rem;
-    left: 7rem;
-    bottom: 0rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  position: fixed;
+  /* size: 1i; */
+  font-size: 1.25rem;
+  left: 7rem;
+  bottom: 0rem;
 }
 
 .header_socials::after {
-    content: '';
-    width: 1px;
-    height: 5rem;
-    background: var(--color-primary);
+  content: "";
+  width: 1px;
+  height: 5rem;
+  background: var(--color-primary);
 }
 
 .header_socials:hover,
 .header_socials:focus {
-    transform: translateY(-3px);
+  transform: translateY(-3px);
 }
 
 .mail-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-    position: fixed;
-    /* size: 1i; */
-    font-size: 1rem;
-    right: 4.5rem;
-    bottom: 0rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  position: fixed;
+  /* size: 1i; */
+  font-size: 1rem;
+  right: 4.5rem;
+  bottom: 0rem;
 }
 
 .mail-container:after {
-    content: '';
-    display: block;
-    width: 1px;
-    height: 90px;
-    /* margin: 0 auto; */
-    background-color: var(--color-primary);
+  content: "";
+  display: block;
+  width: 1px;
+  height: 90px;
+  /* margin: 0 auto; */
+  background-color: var(--color-primary);
 }
 
 .mail-container a {
-    margin: 20px auto;
-    padding: 10px;
-    font-family: "SFmono";
-    line-height: 5rem;
-    letter-spacing: 0.15em;
-    writing-mode: vertical-rl;
+  margin: 20px auto;
+  padding: 10px;
+  font-family: "SFmono";
+  line-height: 5rem;
+  letter-spacing: 0.15em;
+  writing-mode: vertical-rl;
 }
 
 .mail-container a:hover,
 .mail-container a:focus {
-    transform: translateY(-3px);
+  transform: translateY(-3px);
 }
 
 /* ==================== MEDIA QUERIES (Medium DEVICES) ==================== */
 @media screen and (max-width: 1024px) {
-    header {
-        height: 80vh;
-    }
+  header {
+    height: 80vh;
+  }
 
-    .header_text {
-        margin-top: 20%;
-    }
+  .header_text {
+    margin-top: 20%;
+  }
 
-    .header_text h1 {
-        font-size: 60px;
-    }
+  .header_text h1 {
+    font-size: 60px;
+  }
 
-    .header_text span {
-        font-size: 60px;
-    }
-    
-    .header_socials,
-    .mail-container {
-        display: none;
-    }
+  .header_text span {
+    font-size: 60px;
+  }
+
+  .header_socials,
+  .mail-container {
+    display: none;
+  }
 }
 
 /* ==================== MEDIA QUERIES (Small DEVICES) ==================== */
 @media screen and (max-width: 600px) {
-    header {
-        height: 100vh;
-    }
+  header {
+    height: 100vh;
+  }
 
-    .header_socials,
-    .mail-container {
-        display: none;
-    }
+  .header_socials,
+  .mail-container {
+    display: none;
+  }
 }

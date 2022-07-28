@@ -37,12 +37,12 @@ const useFetch = (url) => {
         error: true,
       });
     }
-  }, [url]);
+  }, [cancelTokenSource.token, url]);
 
   useEffect(() => {
     fetchData();
     return () => cancelTokenSource.cancel();
-  }, [url, fetchData]);
+  }, [url, fetchData, cancelTokenSource]);
 
   const { data, isLoading, error } = fetchedData;
   return { data, isLoading, error };

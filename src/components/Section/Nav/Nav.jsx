@@ -3,13 +3,12 @@ import React, { useState, useEffect } from "react";
 import "./Nav.css";
 
 const Nav = ({ inView }) => {
-
   const [activeNav, setActiveNav] = useState("#");
-  const [hamburgerActive, setHamburgerActive] = useState(false)
+  const [hamburgerActive, setHamburgerActive] = useState(false);
 
   const handleHamburgerState = () => {
-    setHamburgerActive(!hamburgerActive)
-  }
+    setHamburgerActive(!hamburgerActive);
+  };
 
   useEffect(() => {
     setActiveNav(inView);
@@ -37,50 +36,86 @@ const Nav = ({ inView }) => {
   }, []);
 
   return (
-    <nav style={
-      {
+    <nav
+      style={{
         opacity: showNav ? 1 : 0,
         top: showNav ? 0 : "-100px",
-      }
-    }>
+      }}
+    >
       <div className="nav-text">
         <h1>Aarab.</h1>
       </div>
 
       <ul className="nav-links">
-        <div className={`hamburger ${hamburgerActive ? "active" : ""}`} onClick={handleHamburgerState}>
+        <div
+          className={`hamburger ${hamburgerActive ? "active" : ""}`}
+          onClick={handleHamburgerState}
+        >
           <span></span>
         </div>
-        {
-          hamburgerActive &&
+        {hamburgerActive && (
           <div className="menu">
             <li>
-              <a href="/#" onClick={() => setActiveNav("#")} className={activeNav === "#" ? "active" : ""}><span>1.</span> Home</a>
+              <a
+                href="/#"
+                onClick={() => setActiveNav("#")}
+                className={activeNav === "#" ? "active" : ""}
+              >
+                <span>1.</span> Home
+              </a>
             </li>
 
             <li>
-              <a href="#about" onClick={() => setActiveNav("#about")} className={activeNav === "#about" ? "active" : ""}><span>2.</span> About</a>
+              <a
+                href="#about"
+                onClick={() => setActiveNav("#about")}
+                className={activeNav === "#about" ? "active" : ""}
+              >
+                <span>2.</span> About
+              </a>
             </li>
 
             <li>
-              <a href="#experience" onClick={() => setActiveNav("#experience")} className={activeNav === "#experience" ? "active" : ""}><span>3.</span> Experience</a>
+              <a
+                href="#experience"
+                onClick={() => setActiveNav("#experience")}
+                className={activeNav === "#experience" ? "active" : ""}
+              >
+                <span>3.</span> Experience
+              </a>
             </li>
 
             <li>
-              <a href="#projects" onClick={() => setActiveNav("#projects")} className={activeNav === "#projects" ? "active" : ""}><span>4.</span> Projects</a>
+              <a
+                href="#projects"
+                onClick={() => setActiveNav("#projects")}
+                className={activeNav === "#projects" ? "active" : ""}
+              >
+                <span>4.</span> Projects
+              </a>
             </li>
 
             <li>
-              <a href="#contact" onClick={() => setActiveNav("#contact")} className={activeNav === "#contact" ? "active" : ""}><span>5.</span> Contact</a>
+              <a
+                href="#contact"
+                onClick={() => setActiveNav("#contact")}
+                className={activeNav === "#contact" ? "active" : ""}
+              >
+                <span>5.</span> Contact
+              </a>
             </li>
 
             <span>
-              <a href={() => false} onClick={() => alert("Coming Soon...")} className="nav_btn">
+              <a
+                href={() => false}
+                onClick={() => alert("Coming Soon...")}
+                className="nav_btn"
+              >
                 Resume
               </a>
             </span>
           </div>
-        }
+        )}
       </ul>
     </nav>
   );
