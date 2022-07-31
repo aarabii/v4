@@ -1,10 +1,3 @@
-# IMPORTANT
-
-Hey, I really wanted to work on this project and wanted to improve it, but my exams are going on so i dont get much time to work on this if Anyone out there wanted to work or have any ideas to improve this repo please let me know.
-please create an [issue](https://github.com/losier/v4/issues/new) or PR to let me know about your ideas and works I'll be thankfull to you
-
-## will delete this important section once my exams are over thank you
-
 <div align="center">
   <img alt="Logo" src="https://raw.githubusercontent.com/losier/v4/master/src/assets/othersPics/logo.png" width="100" />
 </div>
