@@ -10,8 +10,15 @@ import GithubRepo from "../Section/GithubProjects/GithubRepo";
 
 import PreLoader from "../../hooks/PreLoader/PreLoader";
 
-const HomePage = () => {
+const HomePage = (props) => {
   const [inView, setInView] = useState("");
+  const [section] = useState(props.section);
+
+  useEffect(() => {
+    let scrollTo = document.getElementById(section);
+    if (scrollTo) scrollTo.scrollIntoView();
+  }, []);
+
   return (
     <div>
       <Nav inView={inView} />
@@ -25,7 +32,7 @@ const HomePage = () => {
   );
 };
 
-const Home = () => {
+const Home = (props) => {
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
@@ -35,7 +42,9 @@ const Home = () => {
     }, 2500);
   }, []);
 
-  return <div>{loading ? <PreLoader /> : <HomePage />}</div>;
+  return (
+    <div>{loading ? <PreLoader /> : <HomePage section={props.section} />}</div>
+  );
 };
 
 export default Home;
