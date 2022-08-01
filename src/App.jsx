@@ -7,6 +7,7 @@ import Home from "./components/Home/Home";
 import PageNotFound from "./components/Pages/404Page/PageNotFound";
 import ComingSoon from "./components/Pages/ComingSoon/ComingSoon";
 import AboutMe from "./components/Pages/AboutMe/AboutMe.Jsx";
+import Projects from "./components/Pages/Projects/Projects";
 
 const App = () => {
   return (
@@ -17,7 +18,7 @@ const App = () => {
             <Home />
           </Route>
           <Route path="/projects">
-            <ComingSoon />
+            <Projects />
           </Route>
           <Route exact path="/about">
             <AboutMe />

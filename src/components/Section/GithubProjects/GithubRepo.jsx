@@ -38,6 +38,10 @@ const GithubRepo = () => {
             </article>
           );
         })}
+
+        <a href="./projects" className="btn">
+          See all projects
+        </a>
       </div>
     </section>
   );
