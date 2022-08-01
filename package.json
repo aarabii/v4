@@ -1,6 +1,6 @@
 {
     "name": "losier-portfolio",
-    "version": "v2.2.1",
+    "version": "v2.5.0",
     "engines": {
         "node": "16.13.0"
     },

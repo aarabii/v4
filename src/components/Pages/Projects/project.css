@@ -35,9 +35,9 @@
 
 .Projects_list {
   margin-top: 2rem;
-  display: grid;
   height: fit-content;
-  grid-template-columns: repeat(3, 1fr);
+  display: grid;
+  grid-template-columns: repeat(3, 3fr);
   padding: 25px 100px 75px 100px;
   gap: 2.5rem;
 }

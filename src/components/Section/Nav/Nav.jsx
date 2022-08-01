@@ -43,14 +43,14 @@ const Nav = ({ inView }) => {
 
       <ul className="nav-links">
         <input type="checkbox" id="checkbox_toggle" />
-        <label for="checkbox_toggle" class="hamburger">
+        <label htmlFor="checkbox_toggle" className="hamburger">
           &#9776;
         </label>
 
         <div className="menu">
           <li>
             <a
-              href="/#"
+              href={"/#"}
               onClick={() => setActiveNav("#")}
               className={activeNav === "#" ? "active" : ""}
             >
@@ -60,7 +60,7 @@ const Nav = ({ inView }) => {
 
           <li>
             <a
-              href="#about"
+              href={"#about"}
               onClick={() => setActiveNav("#about")}
               className={activeNav === "#about" ? "active" : ""}
             >
@@ -70,7 +70,7 @@ const Nav = ({ inView }) => {
 
           <li>
             <a
-              href="#experience"
+              href={"#experience"}
               onClick={() => setActiveNav("#experience")}
               className={activeNav === "#experience" ? "active" : ""}
             >
@@ -80,7 +80,7 @@ const Nav = ({ inView }) => {
 
           <li>
             <a
-              href="#projects"
+              href={"#projects"}
               onClick={() => setActiveNav("#projects")}
               className={activeNav === "#projects" ? "active" : ""}
             >
@@ -90,7 +90,7 @@ const Nav = ({ inView }) => {
 
           <li>
             <a
-              href="#contact"
+              href={"#contact"}
               onClick={() => setActiveNav("#contact")}
               className={activeNav === "#contact" ? "active" : ""}
             >

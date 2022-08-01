@@ -56,7 +56,7 @@ const Contact = () => {
             <HiOutlineMail className="contact_icons" />
             <h4>Email</h4>
             <h5>nishu@duck.com</h5>
-            <a href="mailto:nishu@duck.com" target="_blank" rel="noreferrer">
+            <a href={"mailto:nishu@duck.com"} target="_blank" rel="noreferrer">
               Send a message
             </a>
           </article>
@@ -65,7 +65,7 @@ const Contact = () => {
             <FaTelegramPlane className="contact_icons" />
             <h4>Telegram</h4>
             <h5>t.me/zzcwc</h5>
-            <a href="https://t.me/zzcwc" target="_blank" rel="noreferrer">
+            <a href={"https://t.me/zzcwc"} target="_blank" rel="noreferrer">
               Send a message
             </a>
           </article>
@@ -75,7 +75,7 @@ const Contact = () => {
             <h4>Snapchat</h4>
             <h5>nishu.kr</h5>
             <a
-              href="https://snapchat.com/add/nishu.kr"
+              href={"https://snapchat.com/add/nishu.kr"}
               target="_blank"
               rel="noreferrer"
             >

@@ -11,40 +11,40 @@ const HeaderSocials = () => {
     <div>
       <div className="header_socials">
         <a
-          href="https://github.com/losier"
+          href={"https://github.com/losier"}
           target="_blank"
           rel="noopener noreferrer"
         >
           <BsGithub />
         </a>
         <a
-          href="https://www.linkedin.com/in/aarab-nishchal/"
+          href={"https://www.linkedin.com/in/aarab-nishchal/"}
           target="_blank"
           rel="noopener noreferrer"
         >
           <BsLinkedin />
         </a>
         <a
-          href="https://www.instagram.com/zzcwc"
+          href={"https://www.instagram.com/zzcwc"}
           target="_blank"
           rel="noopener noreferrer"
         >
           <BsInstagram />
         </a>
         <a
-          href="https://twitter.com/uwu_losier"
+          href={"https://twitter.com/uwu_losier"}
           target="_blank"
           rel="noopener noreferrer"
         >
           <BsTwitter />
         </a>
-        <a href="mailto:aarab.nishchal@gmail.com">
+        <a href={"mailto:aarab.nishchal@gmail.com"}>
           <BsEnvelope />
         </a>
       </div>
 
       <div className="mail-container">
-        <a href="mailto:nishu@duck.com" className="mail">
+        <a href={"mailto:nishu@duck.com"} className="mail">
           aarab.nishchal@gmail.com
         </a>
       </div>
