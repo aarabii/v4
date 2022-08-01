@@ -6,7 +6,6 @@ import Home from "./components/Home/Home";
 
 import PageNotFound from "./components/Pages/404Page/PageNotFound";
 import ComingSoon from "./components/Pages/ComingSoon/ComingSoon";
-import AboutMe from "./components/Pages/AboutMe/AboutMe.Jsx";
 
 const App = () => {
   return (
@@ -20,7 +19,7 @@ const App = () => {
             <ComingSoon />
           </Route>
           <Route exact path="/about">
-            <AboutMe />
+            <Home section="about" />
           </Route>
           <Route path="/cv">
             <ComingSoon />
