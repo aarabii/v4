@@ -17,7 +17,7 @@ const HomePage = (props) => {
   useEffect(() => {
     let scrollTo = document.getElementById(section);
     if (scrollTo) scrollTo.scrollIntoView();
-  }, []);
+  }, [section]);
 
   return (
     <div>
