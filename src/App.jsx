@@ -7,7 +7,7 @@ import Home from "./components/Home/Home";
 import PageNotFound from "./components/Pages/404Page/PageNotFound";
 import ComingSoon from "./components/Pages/ComingSoon/ComingSoon";
 
-import Projects from "./components/Pages/Projects/Projects";
+import Project from "./components/Pages/Projects/Project";
 
 const App = () => {
   return (
@@ -17,11 +17,20 @@ const App = () => {
           <Route exact path="/">
             <Home />
           </Route>
-          <Route path="/projects">
-            <Projects />
+          <Route path="/project">
+            <Project />
           </Route>
           <Route exact path="/about">
             <Home section="about" />
+          </Route>
+          <Route exact path="/experience">
+            <Home section="experience" />
+          </Route>
+          <Route exact path="/projects">
+            <Home section="projects" />
+          </Route>
+          <Route exact path="/contact">
+            <Home section="contact" />
           </Route>
           <Route path="/cv">
             <ComingSoon />

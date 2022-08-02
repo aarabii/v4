@@ -39,7 +39,7 @@ const GithubRepo = () => {
           );
         })}
 
-        <a href={"./projects"} className="btn">
+        <a href={"./project"} className="btn">
           See all projects
         </a>
       </div>
