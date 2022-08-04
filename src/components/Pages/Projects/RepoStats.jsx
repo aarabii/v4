@@ -42,9 +42,10 @@ const RepoStats = () => {
               <h1>{repo.name}</h1>
               <h4>
                 {(repo.description || "No description").substring(0, 100)}
-                {`...`}
               </h4>
-              <small className="langData">{repo.language}</small>
+              <small className="langData">
+                {(repo.language || "Markdown").substring(0, 100)}
+              </small>
             </article>
           ))}
       </div>
