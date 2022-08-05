@@ -97,3 +97,23 @@
 .view_btn:hover {
   color: var(--color-neon);
 }
+
+/* ==================== MEDIA QUERIES (Medium DEVICES) ==================== */
+@media screen and (max-width: 1024px) {
+  .Projects_list {
+    grid-template-columns: repeat(1, 2fr);
+    gap: 1.2rem;
+    /* margin: 10px; */
+    padding: 20px;
+  }
+}
+
+/* ==================== MEDIA QUERIES (Small DEVICES) ==================== */
+@media screen and (max-width: 600px) {
+  .Projects_list {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin: 0;
+    padding: 20px;
+  }
+}
