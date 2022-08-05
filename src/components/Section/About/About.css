@@ -96,7 +96,7 @@ span:hover {
     gap: 0;
   }
 
-  .about_me {
+  .me {
     width: 50%;
     margin: 2rem auto 4rem;
   }
@@ -108,7 +108,7 @@ span:hover {
 
 /* ==================== MEDIA QUERIES (Small DEVICES) ==================== */
 @media screen and (max-width: 600px) {
-  .about_me {
+  .me {
     width: 65%;
     margin: 0 auto 3rem;
   }
@@ -125,4 +125,60 @@ span:hover {
   .about_card-content p {
     margin: 1.5rem 0;
   }
+}
+
+/* ==================== My Image (PFP) ==================== */
+
+.me {
+  width: 25rem;
+  height: 25rem;
+  /* position: absolute; */
+  /* left: calc(50% - 11rem); */
+  /* margin-top: 2rem; */
+  /* border-radius: 1rem 1rem 1rem 1rem; */
+  overflow: hidden;
+  padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+  border-radius: 3px;
+  transition: all 0.4s;
+  aspect-ratio: 1/1;
+  /* border-radius: 2rem; */
+  /* background: linear-gradient(
+    45deg,
+    transparent,
+    var(--color-primary),
+    transparent
+  ); */
+  display: grid;
+  place-items: center;
+}
+.image-card:hover {
+  box-shadow: 1px 1px 6px 1px #764ba2;
+  border-radius: 1px solid #7303c0;
+}
+.image-card:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 180%;
+  height: 100%;
+  width: 75%;
+  background: rgba(255, 255, 255, 0.1);
+  z-index: 1;
+  transform: skew(45deg);
+  opacity: 0.7;
+  pointer-events: none;
+  transition: 0.5s;
+}
+.image-card:hover:before {
+  left: -180%;
+}
+.image-card img {
+  height: 100%;
+  width: 100%;
+  filter: grayscale(100%);
+  transition: 2s;
+}
+.image-card:hover img {
+  filter: grayscale(0%);
+  transform: scale(1.1);
 }

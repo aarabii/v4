@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 
-import About_Image from "../../../assets/Pics/about_image.png";
+// import About_Image from "../../../assets/Pics/about_image.png";
 
 import { FaAward } from "react-icons/fa";
 import { BsFolder } from "react-icons/bs";
@@ -25,11 +25,14 @@ const About = () => {
       <h2>About Me</h2>
 
       <div className="container about_container">
-        <div className="about_me">
-          <div className="about_me-image">
+        {/* <div className="about_me"> */}
+        {/* <div className="about_me-image">
             <img src={About_Image} alt="profile_pic" />
-          </div>
+          </div> */}
+        <div className="me image-card">
+          <img src={require("../../../assets/Pics/me2.jpg")} alt="me" />
         </div>
+        {/* </div> */}
 
         <div className="about_content">
           <div className="about_card">
