@@ -1,14 +1,6 @@
 header {
-  height: 100vh;
   padding-top: 5rem;
   overflow: hidden;
-}
-
-.header_container {
-  height: 100%;
-  position: relative;
-  display: flex;
-  flex-direction: column;
 }
 
 .header_text {
@@ -131,7 +123,8 @@ header {
   }
 
   .header_text span {
-    font-size: 60px;
+    font-size: 3rem;
+    line-height: normal;
   }
 
   .header_socials,

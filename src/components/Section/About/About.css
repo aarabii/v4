@@ -87,6 +87,7 @@ span:hover {
 .about_content p {
   margin: 2rem 0 2.6rem;
   color: var(--color-light);
+  font-size: 1.5rem;
 }
 
 /* ==================== MEDIA QUERIES (Medium DEVICES) ==================== */
@@ -97,7 +98,7 @@ span:hover {
   }
 
   .me {
-    width: 50%;
+    /* width: 50%; */
     margin: 2rem auto 4rem;
   }
 
@@ -109,7 +110,7 @@ span:hover {
 /* ==================== MEDIA QUERIES (Small DEVICES) ==================== */
 @media screen and (max-width: 600px) {
   .me {
-    width: 65%;
+    /* width: 65%; */
     margin: 0 auto 3rem;
   }
 
@@ -130,38 +131,22 @@ span:hover {
 /* ==================== My Image (PFP) ==================== */
 
 .me {
-  width: 25rem;
-  height: 25rem;
-  /* position: absolute; */
-  /* left: calc(50% - 11rem); */
-  /* margin-top: 2rem; */
-  /* border-radius: 1rem 1rem 1rem 1rem; */
   overflow: hidden;
   padding: 1.5rem 1.5rem 1.5rem 1.5rem;
   border-radius: 3px;
   transition: all 0.4s;
   aspect-ratio: 1/1;
-  /* border-radius: 2rem; */
-  /* background: linear-gradient(
-    45deg,
-    transparent,
-    var(--color-primary),
-    transparent
-  ); */
   display: grid;
   place-items: center;
 }
 .image-card:hover {
-  box-shadow: 1px 1px 6px 1px #764ba2;
-  border-radius: 1px solid #7303c0;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+  background-color: whitesmoke;
 }
 .image-card:before {
   content: "";
   position: absolute;
   top: 0;
-  left: 180%;
-  height: 100%;
-  width: 75%;
   background: rgba(255, 255, 255, 0.1);
   z-index: 1;
   transform: skew(45deg);
@@ -180,5 +165,5 @@ span:hover {
 }
 .image-card:hover img {
   filter: grayscale(0%);
-  transform: scale(1.1);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }

@@ -12,7 +12,7 @@ import Project from "./components/Pages/Projects/Project";
 const App = () => {
   return (
     <Router>
-      <div>
+      <>
         <Switch>
           <Route exact path="/">
             <Home />
@@ -39,7 +39,7 @@ const App = () => {
             <PageNotFound />
           </Route>
         </Switch>
-      </div>
+      </>
     </Router>
   );
 };

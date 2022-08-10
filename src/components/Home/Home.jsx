@@ -20,7 +20,7 @@ const HomePage = (props) => {
   }, [section]);
 
   return (
-    <div>
+    <>
       <Nav inView={inView} />
       <Header setInView={setInView} />
       <About setInView={setInView} />
@@ -28,7 +28,7 @@ const HomePage = (props) => {
       <GithubRepo setInView={setInView} />
       <Contact setInView={setInView} />
       <Footer />
-    </div>
+    </>
   );
 };
 
