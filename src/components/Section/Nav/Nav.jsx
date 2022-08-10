@@ -99,13 +99,13 @@ const Nav = ({ inView }) => {
           </li>
 
           <span>
-            {/* <a
+            <a
               href={() => false}
               onClick={() => alert("Coming Soon...")}
               className="nav_btn"
-            > */}
+            >
               Resume
-            {/* </a> */}
+            </a>
           </span>
         </div>
       </ul>
