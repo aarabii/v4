@@ -147,39 +147,9 @@ input[type="checkbox"] {
   }
 
   .hamburger {
-    position: relative;
     display: block;
-    width: 25px;
-    height: 20px;
     cursor: pointer;
-  }
-
-  .hamburger span {
-    position: absolute;
-    width: 100%;
-    height: 2px;
-    background-color: white;
-    top: 0;
-    left: 0;
-  }
-
-  .hamburger::after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 2px;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: white;
-  }
-
-  .hamburger::before {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 2px;
-    bottom: 0;
-    background-color: white;
+    font-size: 2.5rem;
   }
 
   .hamburger.active > span {

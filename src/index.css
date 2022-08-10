@@ -1,4 +1,4 @@
-@import url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+/* @import url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
 
 @font-face {
   font-family: "SFmono";
@@ -13,7 +13,7 @@
 @font-face {
   font-family: "Italianno", cursive;
   src: url("https://fonts.googleapis.com/css2?family=Italianno&display=swap");
-}
+} */
 
 * {
   margin: 0;
@@ -48,6 +48,10 @@
 
 html {
   scroll-behavior: smooth;
+}
+html, body{
+  min-height: 100%;
+  width: 100vw;
 }
 
 body {

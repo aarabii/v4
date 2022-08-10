@@ -3,6 +3,7 @@
   display: grid;
   grid-template-columns: 30% 50%;
   gap: 12%;
+  height: 100vh;
 }
 
 .contact_options {
@@ -100,5 +101,6 @@ textarea {
 @media screen and (max-width: 600px) {
   .container.contact_container {
     width: var(--container-width-ms);
+    height: unset;
   }
 }

@@ -50,7 +50,7 @@ const ComingSoon = () => {
           <h2>This page is under construction.</h2>
           <h3>Come back soon!</h3>
         </div>
-        <a href={"/"}>Go To Homepage</a>
+        <a href="/">Go To Homepage</a>
         <p>
           <small>{timerDays}</small>
           <sup>Days</sup>

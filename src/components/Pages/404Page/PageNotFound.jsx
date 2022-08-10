@@ -13,7 +13,7 @@ const PageNotFount = () => {
           <h1>404</h1>
           <h2>Page not found</h2>
         </div>
-        <a href={"/"}>Go To Homepage</a>
+        <a href="/">Go To Homepage</a>
         <p>
           No match for <code>{location.pathname}</code>
         </p>
