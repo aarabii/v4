@@ -1,9 +1,6 @@
 /* @import url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
 
-@font-face {
-  font-family: "SFmono";
-  src: url("http://fonts.cdnfonts.com/css/sf-mono");
-}
+
 
 @font-face {
   font-family: "San Francisco";
@@ -15,6 +12,12 @@
   src: url("https://fonts.googleapis.com/css2?family=Italianno&display=swap");
 } */
 
+@font-face {
+  font-family: "default";
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff")
+    format("woff");
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -23,6 +26,7 @@
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
+  font-family: "default";
 }
 
 *::-webkit-scrollbar {
@@ -49,13 +53,14 @@
 html {
   scroll-behavior: smooth;
 }
-html, body{
+html,
+body {
   min-height: 100%;
   width: 100vw;
 }
 
 body {
-  font-family: "San Francisco", -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: "default";
   background: var(--color-bg-variant);
   color: var(--color-white);
   line-height: 1, 7;
