@@ -1,9 +1,6 @@
 {
   "name": "losier-portfolio",
   "version": "v2.5.0",
-  "engines": {
-    "node": "12.18.0"
-  },
   "private": true,
   "dependencies": {
     "@svgr/webpack": "^6.3.1",
