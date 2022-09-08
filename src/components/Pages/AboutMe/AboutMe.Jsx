@@ -3,13 +3,17 @@ import "./aboutMe.css";
 
 import Nav from "../../Section/Nav/Nav";
 import ComingSoon from "../ComingSoon/ComingSoon";
+import DotRing from "../../DotRing/DotRing";
 
 const AboutMe = () => {
   return (
-    <div>
-      <Nav />
-      <ComingSoon />
-    </div>
+    <>
+      <DotRing />
+      <div>
+        <Nav />
+        <ComingSoon />
+      </div>
+    </>
   );
 };
 

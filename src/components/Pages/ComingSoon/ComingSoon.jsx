@@ -1,4 +1,5 @@
 import React, { useState, useRef, useEffect } from "react";
+import DotRing from "../../DotRing/DotRing";
 
 // import Timer from './Timer';
 import "./comingSoon.css";
@@ -44,6 +45,7 @@ const ComingSoon = () => {
 
   return (
     <div id="soon">
+      <DotRing />
       <div className="soon">
         <div className="soon_container">
           <h1>Coming Soon</h1>

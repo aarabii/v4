@@ -20,6 +20,7 @@ header {
   letter-spacing: normal;
   margin: 0;
   padding: 0;
+  position: relative;
 }
 
 .header_text h1 {
@@ -39,6 +40,7 @@ header {
   text-align: start;
   margin: 0;
   padding: 0;
+  position: relative;
 }
 
 .cta {

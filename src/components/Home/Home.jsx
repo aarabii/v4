@@ -8,7 +8,8 @@ import Header from "../Section/Header/Header";
 import Nav from "../Section/Nav/Nav";
 import GithubRepo from "../Section/GithubProjects/GithubRepo";
 
-import PreLoader from "../../hooks/PreLoader/PreLoader";
+import PreLoader from "../PreLoader/PreLoader";
+import DotRing from "../DotRing/DotRing";
 
 const HomePage = (props) => {
   const [inView, setInView] = useState("");
@@ -21,6 +22,7 @@ const HomePage = (props) => {
 
   return (
     <>
+      <DotRing />
       <Nav inView={inView} />
       <Header setInView={setInView} />
       <About setInView={setInView} />
