@@ -83,3 +83,4 @@ Yes, you can fork this repo. Please give me proper credit. Thanks!
 - [EGATOR](https://www.youtube.com/c/EGATORTUTORIALS).
 - [Some Devs From StackOverFlow](https://stackoverflow.com/)
 - [Some Devs From CodePen](https://codepen.io/)
+- [Rahul](https://dev.to/holdmypotion/react-custom-cursor-no-extra-dependencies-25ki)
