@@ -38,14 +38,7 @@
   .dot {
     display: none;
   }
-}
-
-/* ==================== MEDIA QUERIES (Small DEVICES) ==================== */
-@media screen and (max-width: 600px) {
-  .ring {
-    display: none;
-  }
-  .dot {
-    display: none;
+  * {
+    cursor: auto;
   }
 }
