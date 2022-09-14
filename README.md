@@ -5,14 +5,14 @@
   Aarab Nischal - v4
 </h1>
 <p align="center">
-  The first iteration of <a href="http://aarabnishchal.herokuapp.com/" target="_blank">aarabnishchal.herokuapp.com/</a> built with <a href="https://reactjs.org/" target="_blank">React</a> and hosted with <a href="https://www.heroku.com/" target="_blank">Heroku</a>
+  The first iteration of <a href="https://aarab.vercel.app/" target="_blank">https://aarab.vercel.app/</a> built with <a href="https://reactjs.org/" target="_blank">React</a> and hosted on <a href="https://vercel.com/" target="_blank">vercel</a>
 </p>
 <p align="center">
   <a href="https://reactjs.org/" target="_blank">
     <img src="https://img.shields.io/badge/-ReactJs-61DAFB?style=for-the-badge&logo=react&logoColor=white" alt="React" />
   </a>
-  <a href="https://www.heroku.com/" target="_blank">
-    <img src="https://camo.githubusercontent.com/3bcc8da5c94cefdf2d976837d1be601f4d44d36b58d9590e36debe834a6e34de/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4865726f6b752d3433303039383f7374796c653d666f722d7468652d6261646765266c6f676f3d6865726f6b75266c6f676f436f6c6f723d7768697465" alt="Heroku" />
+  <a href="https://vercel.com/" target="_blank">
+    <img src="https://vercelbadge.vercel.app/api/datejer/vercel-badge?style=for-the-badge" alt="Heroku" />
   </a>
   <a href="mailto:nishu@duck.com" target="_blank">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="React" />
