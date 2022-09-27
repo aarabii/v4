@@ -1,7 +1,5 @@
 .ring {
   position: fixed;
-  top: 0;
-  left: 0;
   width: 50px;
   height: 50px;
   border-width: 3px;
