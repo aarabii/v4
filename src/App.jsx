@@ -1,6 +1,6 @@
 import React from "react";
 
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import {BrowserRouter as Router , Routes , Route} from 'react-router-dom'
 
 import Home from "./components/Home/Home";
 
@@ -13,32 +13,16 @@ const App = () => {
   return (
     <Router>
       <>
-        <Switch>
-          <Route exact path="/">
-            <Home />
-          </Route>
-          <Route path="/project">
-            <Project />
-          </Route>
-          <Route exact path="/about">
-            <Home section="about" />
-          </Route>
-          <Route exact path="/experience">
-            <Home section="experience" />
-          </Route>
-          <Route exact path="/projects">
-            <Home section="projects" />
-          </Route>
-          <Route exact path="/contact">
-            <Home section="contact" />
-          </Route>
-          <Route path="/cv">
-            <ComingSoon />
-          </Route>
-          <Route path="*">
-            <PageNotFound />
-          </Route>
-        </Switch>
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route path="/project" element={<Project />} />
+          <Route exact path="/about" element={<Home section="about" />} />
+          <Route exact path="/experience" element={<Home section="experience" />} />
+          <Route exact path="/projects" element={<Home section="projects" />} />
+          <Route exact path="/contact" element={<Home section="contact" />} />
+          <Route path="/cv" element={<ComingSoon />} />
+          <Route path="*" element={<PageNotFound />} />
+        </Routes>
       </>
     </Router>
   );
