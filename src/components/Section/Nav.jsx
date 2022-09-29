@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-import "./Nav.css";
+import "../../styles/Nav.css";
 
 const Nav = ({ inView }) => {
   const [activeNav, setActiveNav] = useState("#");

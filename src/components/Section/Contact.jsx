@@ -1,6 +1,6 @@
 import React, { useRef, useEffect, useState } from "react";
 import emailjs from "emailjs-com";
-import "./Contact.css";
+import "../../styles/Contact.css";
 
 import { HiOutlineMail } from "react-icons/hi";
 import { FaTelegramPlane } from "react-icons/fa";

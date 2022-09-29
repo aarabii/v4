@@ -1,9 +1,9 @@
 import React from "react";
-import "./aboutMe.css";
+import "../../styles/aboutMe.css";
 
-import Nav from "../../Section/Nav/Nav";
-import ComingSoon from "../ComingSoon/ComingSoon";
-import DotRing from "../../DotRing/DotRing";
+import Nav from "../Section/Nav";
+import ComingSoon from "./ComingSoon";
+import DotRing from "../DotRing";
 
 const AboutMe = () => {
   return (

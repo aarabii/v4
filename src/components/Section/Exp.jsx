@@ -1,5 +1,5 @@
 import React from "react";
-import "./Exp.css";
+import "../../styles/Exp.css";
 import { BsPatchCheck } from "react-icons/bs";
 
 const Exp = () => {

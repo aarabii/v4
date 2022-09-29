@@ -2,12 +2,12 @@ import React from "react";
 
 import {BrowserRouter as Router , Routes , Route} from 'react-router-dom'
 
-import Home from "./components/Home/Home";
+import Home from "./components/Home";
 
-import PageNotFound from "./components/Pages/404Page/PageNotFound";
-import ComingSoon from "./components/Pages/ComingSoon/ComingSoon";
+import PageNotFound from "./components/Pages/PageNotFound";
+import ComingSoon from "./components/Pages/ComingSoon";
 
-import Project from "./components/Pages/Projects/Project";
+import Project from "./components/Pages/Project";
 
 const App = () => {
   return (

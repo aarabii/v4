@@ -1,9 +1,9 @@
-import img1 from "../../../assets/githubRepo/Img1.jfif";
-import img2 from "../../../assets/githubRepo/Img2.png";
-import img3 from "../../../assets/githubRepo/Img3.jpg";
-import img4 from "../../../assets/githubRepo/Img4.jfif";
-import img5 from "../../../assets/githubRepo/Img5.jfif";
-import img6 from "../../../assets/githubRepo/Img6.jfif";
+import img1 from "../../assets/githubRepo/Img1.jfif";
+import img2 from "../../assets/githubRepo/Img2.png";
+import img3 from "../../assets/githubRepo/Img3.jpg";
+import img4 from "../../assets/githubRepo/Img4.jfif";
+import img5 from "../../assets/githubRepo/Img5.jfif";
+import img6 from "../../assets/githubRepo/Img6.jfif";
 
 /*
 Image Source:

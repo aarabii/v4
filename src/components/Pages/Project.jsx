@@ -1,9 +1,9 @@
 import React from "react";
-import DotRing from "../../DotRing/DotRing";
-import Nav from "../../Section/Nav/Nav";
-import "./project.css";
+import DotRing from "../DotRing";
+import Nav from "../Section/Nav";
+import "../../styles/project.css";
 
-import RepoStats from "./RepoStats";
+import RepoStats from "../ExternalComponents/RepoStats";
 
 const Project = () => {
   return (

@@ -1,7 +1,7 @@
 import React from "react";
-import "./githubRepo.css";
+import "../../styles/githubRepo.css";
 
-import { data } from "./demoProjectArray";
+import { data } from "../ExternalComponents/demoProjectArray";
 
 const GithubRepo = () => {
   return (

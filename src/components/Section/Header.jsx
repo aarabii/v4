@@ -1,9 +1,9 @@
 import React from "react";
-import "./Header.css";
+import "../../styles/Header.css";
 
-import HeaderSocials from "./HeaderSocials";
-import TypingEffect from "./TypingEffect";
-import CTA from "./CTA";
+import HeaderSocials from "../ExternalComponents/HeaderSocials";
+import TypingEffect from "../ExternalComponents/TypingEffect";
+import CTA from "../ExternalComponents/CTA";
 
 const Header = () => {
   return (

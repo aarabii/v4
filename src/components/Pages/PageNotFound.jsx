@@ -1,8 +1,8 @@
 import React from "react";
-import "./404.css";
-
 import { useLocation } from "react-router-dom";
-import DotRing from "../../DotRing/DotRing";
+
+import "../../styles/404.css";
+import DotRing from "../DotRing";
 
 const PageNotFount = () => {
   const location = useLocation();

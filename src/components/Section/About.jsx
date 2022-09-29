@@ -1,7 +1,5 @@
 import React from "react";
-import "./About.css";
-
-// import About_Image from "../../../assets/Pics/about_image.png";
+import "../../styles/About.css";
 
 import { FaAward } from "react-icons/fa";
 import { BsFolder } from "react-icons/bs";
@@ -30,7 +28,7 @@ const About = () => {
             <img src={About_Image} alt="profile_pic" />
           </div> */}
         <div className="me image-card">
-          <img src={require("../../../assets/Pics/me2.jpg")} alt="me" />
+          <img src={require("../../assets/Pics/me2.jpg")} alt="me" />
         </div>
         {/* </div> */}
 

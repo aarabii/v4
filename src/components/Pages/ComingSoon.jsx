@@ -1,8 +1,8 @@
 import React, { useState, useRef, useEffect } from "react";
-import DotRing from "../../DotRing/DotRing";
+import DotRing from "../DotRing";
 
 // import Timer from './Timer';
-import "./comingSoon.css";
+import "../../styles/comingSoon.css";
 
 const ComingSoon = () => {
   const [timerDays, setTimerDays] = useState("00");
