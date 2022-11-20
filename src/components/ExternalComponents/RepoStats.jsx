@@ -18,11 +18,14 @@ const RepoStats = () => {
 
   return (
     <div className="Projects">
-      <input
-        type="text"
-        placeholder="Search for a project..."
-        onChange={(e) => setQuery(e.target.value)}
-      ></input>
+      <form class="search-box">
+        <input
+          type="text"
+          placeholder="Search for a project..."
+          onChange={(e) => setQuery(e.target.value)}
+        />
+        <button type="reset"></button>
+      </form>
       <div className="Projects_list">
         {reposData
           .filter((repo) => repo.name.toLowerCase().includes(query))
