@@ -5,10 +5,21 @@
 }
 
 .project_container h2 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   text-align: center;
   color: var(--color-primary);
   margin-bottom: 0.25rem;
+}
+
+.project_container h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 0.25rem;
+}
+
+.project_container h1:hover {
+  color: var(--color-primary);
 }
 
 .project_container h5 {
@@ -35,11 +46,11 @@
 
 .Projects_list {
   margin-top: 2rem;
-  height: fit-content;
+  /* height: fit-content; */
   display: grid;
-  grid-template-columns: repeat(3, 3fr);
-  padding: 25px 100px 75px 100px;
   gap: 2.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 400px), 1fr));
+  padding: 25px 100px 75px 100px;
 }
 
 .Projects_list_item {
@@ -101,9 +112,7 @@
 /* ==================== MEDIA QUERIES (Medium DEVICES) ==================== */
 @media screen and (max-width: 1024px) {
   .Projects_list {
-    grid-template-columns: repeat(1, 2fr);
-    gap: 1.2rem;
-    /* margin: 10px; */
+    margin: 10px;
     padding: 20px;
   }
 }
@@ -111,8 +120,6 @@
 /* ==================== MEDIA QUERIES (Small DEVICES) ==================== */
 @media screen and (max-width: 600px) {
   .Projects_list {
-    grid-template-columns: 1fr;
-    gap: 1rem;
     margin: 0;
     padding: 20px;
   }
