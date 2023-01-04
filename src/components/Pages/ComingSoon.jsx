@@ -13,7 +13,7 @@ const ComingSoon = () => {
   let interval = useRef();
 
   const startTimer = () => {
-    const countDownDate = new Date("January 1, 2023 00:00:00").getTime();
+    const countDownDate = new Date("January 1, 2030 00:00:00").getTime();
 
     interval = setInterval(() => {
       const now = new Date().getTime();
