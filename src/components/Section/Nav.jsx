@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-
+import config from "../../config.json";
 import "../../styles/Nav.css";
 
 const Nav = ({ inView }) => {
@@ -38,7 +38,7 @@ const Nav = ({ inView }) => {
       }}
     >
       <div className="nav-text">
-        <h1>Aarab.</h1>
+        <h1>{config.firstName}.</h1>
       </div>
 
       <ul className="nav-links">
