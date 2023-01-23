@@ -5,7 +5,6 @@ import {BrowserRouter as Router , Routes , Route} from 'react-router-dom'
 import Home from "./components/Home";
 
 import PageNotFound from "./components/Pages/PageNotFound";
-import ComingSoon from "./components/Pages/ComingSoon";
 
 import Project from "./components/Pages/Project";
 
@@ -20,7 +19,6 @@ const App = () => {
           <Route exact path="/experience" element={<Home section="experience" />} />
           <Route exact path="/projects" element={<Home section="projects" />} />
           <Route exact path="/contact" element={<Home section="contact" />} />
-          <Route path="/cv" element={<ComingSoon />} />
           <Route path="*" element={<PageNotFound />} />
         </Routes>
       </>
