@@ -1,5 +1,6 @@
 import React from "react";
 import "../../styles/About.css";
+import config from "../../config.json";
 
 import { FaAward } from "react-icons/fa";
 import { BsFolder } from "react-icons/bs";
@@ -7,7 +8,7 @@ import { BsStar } from "react-icons/bs";
 
 var ProjectNumber;
 
-fetch("https://api.github.com/users/losier")
+fetch(`https://api.github.com/users/${config.githubUsername}}`)
   .then((response) => response.json())
   .then((data) => {
     ProjectNumber = `${data.public_repos + data.public_gists + "+"}`;
@@ -49,7 +50,7 @@ const About = () => {
             <article className="about_card-content">
               <BsStar className="about_icons" />
               <h5>Achivements</h5>
-              <small>69</small>
+              <small>{config.numberOfAchivement}</small>
             </article>
           </div>
           <p>
