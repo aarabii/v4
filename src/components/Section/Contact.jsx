@@ -1,6 +1,7 @@
 import React, { useRef, useEffect, useState } from "react";
 import emailjs from '@emailjs/browser';
 import "../../styles/Contact.css";
+import config from "../../config.json";
 
 import { HiOutlineMail } from "react-icons/hi";
 import { FaTelegramPlane } from "react-icons/fa";
@@ -55,8 +56,8 @@ const Contact = () => {
           <article className="contact_option">
             <HiOutlineMail className="contact_icons" />
             <h4>Email</h4>
-            <h5>nishu@duck.com</h5>
-            <a href={"mailto:nishu@duck.com"} target="_blank" rel="noreferrer">
+            <h5>{config.mail}</h5>
+            <a href={`mailto:${config.mail}`} target="_blank" rel="noreferrer">
               Send a message
             </a>
           </article>
@@ -64,8 +65,8 @@ const Contact = () => {
           <article className="contact_option">
             <FaTelegramPlane className="contact_icons" />
             <h4>Telegram</h4>
-            <h5>t.me/zzcwc</h5>
-            <a href={"https://t.me/zzcwc"} target="_blank" rel="noreferrer">
+            <h5>{config.telegram}</h5>
+            <a href={config.telegram} target="_blank" rel="noreferrer">
               Send a message
             </a>
           </article>
@@ -75,7 +76,7 @@ const Contact = () => {
             <h4>Snapchat</h4>
             <h5>nishu.kr</h5>
             <a
-              href={"https://snapchat.com/add/nishu.kr"}
+              href={`https://snapchat.com/add/${config.snapchatUsername}`}
               target="_blank"
               rel="noreferrer"
             >
