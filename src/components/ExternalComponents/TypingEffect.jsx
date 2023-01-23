@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
-const words = ["Aarab", "Nishchal", "Aarab Nishchal."];
+import config from "../../config.json";
+const words = [config.firstName, config.lastName, `${config.name}.`];
 
 const TypingEffect = () => {
   const [index, setIndex] = useState(0);
