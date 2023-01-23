@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { FiFolder, FiGithub } from "react-icons/fi";
-
-const URL = `https://api.github.com/users/losier/repos?&sort=pushed&per_page=100&page=1`;
+import config from "../../config.json";
+const URL = `https://api.github.com/users/${config.githubUsername}/repos?&sort=pushed&per_page=100&page=1`;
 
 const RepoStats = () => {
   const [reposData, setReposData] = useState([]);
