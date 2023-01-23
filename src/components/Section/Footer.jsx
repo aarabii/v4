@@ -1,5 +1,6 @@
 import React from "react";
 import "../../styles/Footer.css";
+import config from "../../config.json";
 
 import {
   FaFacebookSquare,
@@ -38,34 +39,34 @@ const Footer = () => {
 
         <div className="social_media">
           <a
-            href={"https://github.com/losier"}
+            href={`https://github.com/${config.githubUsername}`}
             target="_blank"
             rel="noreferrer"
           >
             <FaGithub />
           </a>
           <a
-            href={"https://www.instagram.com/zzcwc/"}
+            href={`https://www.instagram.com/${config.instagramUsername}/`}
             target="_blank"
             rel="noreferrer"
           >
             <FaInstagram />
           </a>
           <a
-            href={"https://twitter.com/twxey_"}
+            href={`https://twitter.com/${config.twitterUsername}`}
             target="_blank"
             rel="noreferrer"
           >
             <FaTwitter />
           </a>
           <a
-            href={"https://www.facebook.com/zzcwc/"}
+            href={`https://www.facebook.com/${config.facebookUsername}/`}
             target="_blank"
             rel="noreferrer"
           >
             <FaFacebookSquare />
           </a>
-          <a href={"https://linktr.ee/zzcwc"} target="_blank" rel="noreferrer">
+          <a href={config.linktree} target="_blank" rel="noreferrer">
             <SiLinktree />
           </a>
         </div>
