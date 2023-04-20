@@ -31,7 +31,7 @@
     <a href="https://github.com/losier/v4/issues">Request Feature</a>
     <br />
     <a href="https://vercel.com/" target="_blank">
-        <img src="https://vercelbadge.vercel.app/api/datejer/vercel-badge?style=for-the-badg" alt="Vercel">
+        <img src="https://vercelbadge.vercel.app/api/losier/v4?style=for-the-badg" alt="Vercel">
     </a>
   </p>
 </div>
@@ -84,6 +84,10 @@ This is a personal portfolio website built using React and hosted on Vercel, wit
 
 * [![React][React.js]][React-url]
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
+<!-- * [![Email.js][Email.js]][Email-url]
+* [![Vercel][Vercel]][Vercel-url]
+* [![GitHub Pages][GitHub Pages]][GitHub Pages-url] -->
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -260,3 +264,9 @@ Project Link: [https://github.com/losier/v4](https://github.com/losier/v4)
 [React-url]: https://react.dev/
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
 [Bootstrap-url]: https://getbootstrap.com
+[JavaScript]: https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E
+[JavaScript-url]: https://www.javascript.com/
+[HTML5]: https://img.shields.io/badge/HTML5-323330?style=for-the-badge&logo=html5&logoColor=E34F26
+[HTML5-url]: https://html.com/
+[CSS3]: https://img.shields.io/badge/CSS3-323330?style=for-the-badge&logo=css3&logoColor=1572B6
+[CSS3-url]: https://www.w3.org/Style/CSS/Overview.en.html
