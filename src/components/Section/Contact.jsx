@@ -28,8 +28,8 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_azymqng",
-        "template_jo2cvj7",
+        `${process.env.REACT_APP_EMAIL_JS_SERVICE_KEY}`,
+        `${process.env.REACT_APP_EMAIL_JS_TEMPLATE_KEY}`,
         form.current,
         "KiorzUSNq5lRmavZ9"
       )
