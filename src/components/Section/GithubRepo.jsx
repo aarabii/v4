@@ -1,7 +1,7 @@
 import React from "react";
 import "../../styles/githubRepo.css";
-
-import { data } from "../ExternalComponents/demoProjectArray";
+import config from "../../config.json";
+const data = config.demoProjects;
 
 const GithubRepo = () => {
   return (
@@ -14,7 +14,7 @@ const GithubRepo = () => {
           return (
             <article key={id} className="githubRepo_item">
               <div className="gitProject_item_image">
-                <img src={image} alt={title} />
+                <img loading="lazy" src={image} alt={title} />
               </div>
               <h3>{title}</h3>
               <div className="githubRepo_item_cta">

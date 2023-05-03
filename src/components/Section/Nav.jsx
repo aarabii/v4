@@ -118,7 +118,7 @@ const Nav = ({ inView }) => {
 
           <span>
             <a
-              href={() => false}
+              href="#"
               onClick={() => alert("Coming Soon...")}
               className="nav_btn"
             >

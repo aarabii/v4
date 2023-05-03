@@ -45,7 +45,7 @@ const HeaderSocials = () => {
 
       <div className="mail-container">
         <a href={`mailto:${config.mail2}`} className="mail">
-          aarab.nishchal@gmail.com
+          {config.mail2}
         </a>
       </div>
     </div>

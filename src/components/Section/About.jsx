@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "../../styles/About.css";
 import config from "../../config.json";
 
@@ -6,18 +6,22 @@ import { FaAward } from "react-icons/fa";
 import { BsFolder } from "react-icons/bs";
 import { BsStar } from "react-icons/bs";
 
-var ProjectNumber;
-
-fetch(`https://api.github.com/users/${config.githubUsername}}`)
-  .then((response) => response.json())
-  .then((data) => {
-    ProjectNumber = `${data.public_repos + data.public_gists + "+"}`;
-  })
-  .catch(() => {
-    ProjectNumber = "60+";
-  });
-
 const About = () => {
+  const [projectNumber, setProjectNumber] = useState(0);
+
+  const getRepoCount = async () => {
+    fetch(`https://api.github.com/users/${config.githubUsername}`)
+      .then((response) => response.json())
+      .then((data) => {
+        setProjectNumber(data.public_repos);
+      })
+      .catch((err) => {
+        setProjectNumber(config.demoProjects.length);
+        console.log("ERROR WHILE FETCHING GITHUB REPOS COUNT: ", err);
+      });
+  };
+
+  getRepoCount();
   return (
     <section id="about">
       <h5>Get To Know</h5>
@@ -29,7 +33,7 @@ const About = () => {
             <img src={About_Image} alt="profile_pic" />
           </div> */}
         <div className="me image-card">
-          <img src={require("../../assets/Pics/me2.jpg")} alt="me" />
+          <img loading="lazy" src={config.myImage} alt="me" />
         </div>
         {/* </div> */}
 
@@ -44,7 +48,7 @@ const About = () => {
             <article className="about_card-content">
               <BsFolder className="about_icons" />
               <h5>Projects</h5>
-              <small>{ProjectNumber}</small>
+              <small>{projectNumber}+</small>
             </article>
 
             <article className="about_card-content">

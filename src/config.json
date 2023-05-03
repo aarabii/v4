@@ -4,14 +4,59 @@
   "lastName": "Nishchal",
   "bio": "I build things that lives on Internet.",
   "githubUsername": "losier",
-  "instagramUsername": "aarabuibuibui",
+  "instagramUsername": "aarab.ii",
   "linkdinUsername": "aarab-nishchal",
-  "twitterUsername": "twxey_",
+  "twitterUsername": "aarab_ii",
   "snapchatUsername": "aarab.ii",
-  "telegram": "t.me/zzcwc",
+  "telegram": "t.me/aarab_ii",
   "facebookUsername": "zzcwc",
   "linktree": "https://linktr.ee/zzcwc",
   "mail": "nishu@duck.com",
   "mail2": "aarab.nishchal@gmail.com",
-  "numberOfAchivement": "69"
+  "numberOfAchivement": "69",
+  "myImage": "https://raw.githubusercontent.com/losier/v4/master/src/assets/Pics/me2.jpg",
+  "demoProjects": [
+    {
+      "id": 1,
+      "image": "https://raw.githubusercontent.com/losier/v4/master/src/assets/githubRepo/Img1.jfif",
+      "title": "v4",
+      "github": "https://github.com/losier/v4",
+      "demo": "http://aarabnishchal.herokuapp.com/"
+    },
+    {
+      "id": 2,
+      "image": "https://raw.githubusercontent.com/losier/v4/master/src/assets/githubRepo/Img2.png",
+      "title": "Telegram Bot",
+      "github": "",
+      "demo": ""
+    },
+    {
+      "id": 3,
+      "image": "https://raw.githubusercontent.com/losier/v4/master/src/assets/githubRepo/Img3.jpg",
+      "title": "Twitter Bot",
+      "github": "https://github.com/losier/TwitterBot",
+      "demo": "https://losier.github.io/"
+    },
+    {
+      "id": 4,
+      "image": "https://raw.githubusercontent.com/losier/v4/master/src/assets/githubRepo/Img4.jfif",
+      "title": "Discord Bot",
+      "github": "https://github.com/losier/Kiri",
+      "demo": "https://discord.com/api/oauth2/authorize?client_id=900390993860366356&permissions=8&scope=bot"
+    },
+    {
+      "id": 5,
+      "image": "https://raw.githubusercontent.com/losier/v4/master/src/assets/githubRepo/Img5.jfif",
+      "title": "Dark Chrome",
+      "github": "https://github.com/losier/Dark-Chrome",
+      "demo": "https://github.com/losier/Dark-Chrome/blob/master/Src/DarkChrome.exe"
+    },
+    {
+      "id": 6,
+      "image": "https://raw.githubusercontent.com/losier/v4/master/src/assets/githubRepo/Img6.jfif",
+      "title": "ToDo",
+      "github": "https://github.com/losier/Todo",
+      "demo": "https://losier.github.io/Todo"
+    }
+  ]
 }
