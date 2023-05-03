@@ -4,7 +4,7 @@ const CTA = () => {
   return (
     <div className="cta">
       <a
-        href=""
+        href="javascript:void(0)"
         onClick={() => {
           Notification.requestPermission().then((perm) => {
             if (perm === "granted") {
