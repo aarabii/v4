@@ -65,7 +65,7 @@ body {
   background: var(--color-bg-variant);
   color: var(--color-white);
   line-height: 1, 7;
-  background-image: url("./assets/othersPics/bgTexturn2.png");
+  background-image: url("https://raw.githubusercontent.com/losier/v4/data/src/assets/othersPics/bgTexturn2.png");
 }
 
 /* ==================== GENERAL STYLES ==================== */
