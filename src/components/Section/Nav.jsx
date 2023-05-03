@@ -99,7 +99,7 @@ const Nav = ({ inView }) => {
 
           <span>
             <a
-              href="javascript:void(0)"
+              href="/cta"
               onClick={() => {
                 Notification.requestPermission().then((perm) => {
                   if (perm === "granted") {

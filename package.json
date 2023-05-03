@@ -1,6 +1,5 @@
 {
   "name": "losier-portfolio",
-  "homepage": "https:aarab.vercel.app",
   "version": "v4",
   "private": true,
   "dependencies": {
