@@ -257,9 +257,9 @@ Project Link: [https://github.com/losier/v4](https://github.com/losier/v4)
 [license-url]: https://github.com/losier/v4/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/aarab-nishchal
-[product-screenshot]: images/demo.png
-[product-screenshot2]: images/demo2.png
-[logo]: images/logo.png
+[product-screenshot]: https://raw.githubusercontent.com/losier/v4/data/images/demo.png
+[product-screenshot2]: https://raw.githubusercontent.com/losier/v4/data/images/demo2.png
+[logo]: https://raw.githubusercontent.com/losier/v4/data/images/logo.png
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://react.dev/
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
