@@ -91,6 +91,15 @@ const Nav = ({ inView }) => {
           <li>
             <a
               href={"#contact"}
+              className={activeNav === "#contact" ? "active" : ""}
+            >
+              <span>5.</span> Contact
+            </a>
+          </li>
+
+          <span>
+            <a
+              href=""
               onClick={() => {
                 Notification.requestPermission().then((perm) => {
                   if (perm === "granted") {
@@ -110,16 +119,6 @@ const Nav = ({ inView }) => {
                   }
                 });
               }}
-              className={activeNav === "#contact" ? "active" : ""}
-            >
-              <span>5.</span> Contact
-            </a>
-          </li>
-
-          <span>
-            <a
-              href="#"
-              onClick={() => alert("Coming Soon...")}
               className="nav_btn"
             >
               Resume
