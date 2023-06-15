@@ -1,0 +1,126 @@
+.project_container {
+  padding-top: 5rem;
+  display: grid;
+  flex-direction: column;
+}
+
+.project_container h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  color: var(--color-primary);
+  margin-bottom: 0.25rem;
+}
+
+.project_container h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 0.25rem;
+}
+
+.project_container h1:hover {
+  color: var(--color-primary);
+}
+
+.project_container h5 {
+  font-size: 1.25rem;
+  text-align: center;
+  color: var(--color-light);
+  margin-bottom: 2rem;
+}
+
+.Projects {
+  justify-content: center;
+  height: max-content;
+  overflow: hidden;
+  align-items: center;
+}
+
+.Projects input[type="text"] {
+  width: 40%;
+  font-size: 1rem;
+  color: var(--color-light);
+  margin-left: 30%;
+  padding: 1em;
+}
+
+.Projects_list {
+  margin-top: 2rem;
+  /* height: fit-content; */
+  display: grid;
+  gap: 2.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 400px), 1fr));
+  padding: 25px 100px 75px 100px;
+}
+
+.Projects_list_item {
+  background: transparent;
+  padding: 0.75rem;
+  border-radius: 1.5rem;
+  border: 1px solid var(--color-primary-variant);
+  transition: var(--transition);
+  display: flex;
+  flex-direction: column;
+}
+
+.project_logo {
+  /* border: 1px solid red; */
+  color: var(--color-neon);
+  display: flex;
+  font-weight: lighter;
+  justify-content: space-between !important;
+  padding: 5px;
+  font-size: 2rem;
+  border-radius: 1rem;
+}
+
+.Projects_list_item h1 {
+  font-size: 2rem;
+  text-align: start;
+  padding: 5px;
+}
+
+.Projects_list_item h1:hover {
+  color: var(--color-primary);
+}
+
+.Projects_list_item h4 {
+  font-size: 1rem;
+  text-align: start;
+  color: var(--color-light);
+  padding: 5px;
+}
+
+.langData {
+  font-family: "SFmono";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+
+.view_btn {
+  color: var(--color-light);
+}
+
+.view_btn:hover {
+  color: var(--color-neon);
+}
+
+/* ==================== MEDIA QUERIES (Medium DEVICES) ==================== */
+@media screen and (max-width: 1024px) {
+  .Projects_list {
+    margin: 10px;
+    padding: 20px;
+  }
+}
+
+/* ==================== MEDIA QUERIES (Small DEVICES) ==================== */
+@media screen and (max-width: 600px) {
+  .Projects_list {
+    margin: 0;
+    padding: 20px;
+  }
+}

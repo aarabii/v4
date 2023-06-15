@@ -1,0 +1,42 @@
+.ring_cursor {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  border-width: 3px;
+  border: 2px solid lightgray;
+  border-radius: 100%;
+  transform: translate(-50%, -50%);
+  -webkit-transition-duration: 100ms;
+  transition-duration: 100ms;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+  will-change: width, height, transform, border;
+  z-index: 999;
+  pointer-events: none;
+}
+
+.dot {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 8px;
+  height: 8px;
+  background-color: yellow;
+  border-radius: 100%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+  pointer-events: none;
+}
+
+/* ==================== MEDIA QUERIES (Medium DEVICES) ==================== */
+@media screen and (max-width: 1024px) {
+  .ring {
+    display: none;
+  }
+  .dot {
+    display: none;
+  }
+  * {
+    cursor: auto;
+  }
+}
