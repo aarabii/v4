@@ -1,15 +1,23 @@
 {
   "name": "losier-portfolio",
-  "version": "v4",
+  "description": "My portfolio website built with React and Sass. It showcases my projects and skills.",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/losier/v4"
+  },
+  "author": "Losier",
+  "license": "MIT",
+  "homepage": "https://aarab.vercel.app/",
   "private": true,
   "dependencies": {
-    "@emailjs/browser": "^3.10.0",
-    "@vercel/analytics": "^1.0.0",
-    "dotenv": "^16.0.3",
+    "@emailjs/browser": "^3.11.0",
+    "@vercel/analytics": "^1.0.1",
+    "dotenv": "^16.3.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-icons": "^4.8.0",
-    "react-router-dom": "^6.6.1",
+    "react-icons": "^4.10.1",
+    "react-router-dom": "^6.14.0",
     "react-scripts": "5.0.1"
   },
   "scripts": {
@@ -34,6 +42,6 @@
     ]
   },
   "devDependencies": {
-    "sass": "^1.60.0"
+    "sass": "^1.63.6"
   }
 }
