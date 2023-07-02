@@ -1,15 +1,23 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, Suspense, lazy } from "react";
 
-import About from "./Section/About";
-import Contact from "./Section/Contact";
-import Exp from "./Section/Exp";
-import Footer from "./Section/Footer";
-import Header from "./Section/Header";
-import Nav from "./Section/Nav";
-import GithubRepo from "./Section/GithubRepo";
+// import About from "./Section/About";
+// import Contact from "./Section/Contact";
+// import Exp from "./Section/Exp";
+// import Footer from "./Section/Footer";
+// import Header from "./Section/Header";
+// import Nav from "./Section/Nav";
+// import GithubRepo from "./Section/GithubRepo";
 
-import PreLoader from "./PreLoader";
-import DotRing from "./DotRing";
+const About = lazy(() => import("./Section/About"));
+const Contact = lazy(() => import("./Section/Contact"));
+const Exp = lazy(() => import("./Section/Exp"));
+const Footer = lazy(() => import("./Section/Footer"));
+const Header = lazy(() => import("./Section/Header"));
+const Nav = lazy(() => import("./Section/Nav"));
+const GithubRepo = lazy(() => import("./Section/GithubRepo"));
+
+const PreLoader = lazy(() => import("./PreLoader"));
+const DotRing = lazy(() => import("./DotRing"));
 
 const HomePage = (props) => {
   const [inView, setInView] = useState("");
@@ -35,17 +43,12 @@ const HomePage = (props) => {
 };
 
 const Home = (props) => {
-  const [loading, setLoading] = useState(false);
-
-  useEffect(() => {
-    setLoading(true);
-    setTimeout(() => {
-      setLoading(false);
-    }, 2000);
-  }, []);
-
   return (
-    <div>{loading ? <PreLoader /> : <HomePage section={props.section} />}</div>
+    <React.Fragment>
+      <Suspense fallback={<PreLoader />}>
+        <HomePage section={props.section} />
+      </Suspense>
+    </React.Fragment>
   );
 };
 
