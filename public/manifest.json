@@ -3,14 +3,29 @@
   "name": "React based portfolio website.",
   "icons": [
     {
-      "src": "https://raw.githubusercontent.com/losier/v4/data/assets/Logo/android-chrome-192x192.png",
-      "sizes": "192x192",
-      "type": "image/png"
+      "src": "favicon.ico",
+      "sizes": "64x64 24x24",
+      "type": "image/x-icon"
     },
     {
-      "src": "https://raw.githubusercontent.com/losier/v4/data/assets/Logo/android-chrome-512x512.png",
-      "sizes": "512x512",
-      "type": "image/png"
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "logo16.png",
+      "type": "image/png",
+      "sizes": "16x16"
+    },
+    {
+      "src": "logo32.png",
+      "type": "image/png",
+      "sizes": "32x32"
     }
   ],
   "theme_color": "#ffffff",
